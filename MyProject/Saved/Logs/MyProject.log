@@ -1,4 +1,4 @@
-﻿Log file open, 02/18/18 17:57:15
+﻿Log file open, 02/28/18 11:47:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1677151412) SRandInit(1677151412).
+LogInit: Display: RandInit(-463356318) SRandInit(-463356318).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.298022
+LogStats: Stats thread started at 0.278698
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,234 +191,60 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: D:/Unreal/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.18-16.57.17:830][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.18-16.57.17:830][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.18-16.57.17:841][  0]LogInit: Computer: DESKTOP-SRIHI8I
-[2018.02.18-16.57.17:841][  0]LogInit: User: Aleix
-[2018.02.18-16.57.17:841][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.02.18-16.57.17:841][  0]LogInit: High frequency timer resolution =3.119137 MHz
-[2018.02.18-16.57.17:842][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.02.18-16.57.17:842][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.18-16.57.17:842][  0]LogMemory: Process Physical Memory: 275.65 MB used, 275.65 MB peak
-[2018.02.18-16.57.17:842][  0]LogMemory: Process Virtual Memory: 272.36 MB used, 272.36 MB peak
-[2018.02.18-16.57.17:842][  0]LogMemory: Physical Memory: 6725.23 MB used,  9611.39 MB free, 16336.63 MB total
-[2018.02.18-16.57.17:842][  0]LogMemory: Virtual Memory: 685.60 MB used,  9611.39 MB free, 134217728.00 MB total
-[2018.02.18-16.57.17:988][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.02.18-16.57.17:988][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.02.18-16.57.18:542][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.18-16.57.18:935][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.18-16.57.19:029][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.02.18-16.57.19:029][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.18-16.57.19:032][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.18-16.57.19:032][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.18-16.57.19:032][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.18-16.57.19:044][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.18-16.57.19:044][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.18-16.57.19:044][  0]LogWindows: EnumDisplayDevices:
-[2018.02.18-16.57.19:044][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.02.18-16.57.19:044][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.02.18-16.57.19:044][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.02.18-16.57.19:045][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.02.18-16.57.19:045][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.18-16.57.19:045][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.02.18-16.57.19:045][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.18-16.57.19:045][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.18-16.57.19:045][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.02.18-16.57.19:084][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.18-16.57.19:127][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.02.18-16.57.19:179][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../Github/Motors-Jocs-II/MyProject/Intermediate/Shaders/WorkingDirectory/17304/).
-[2018.02.18-16.57.19:180][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/DC46CA6A40DEC65AF642ACA3DA7D7FA6/'.
-[2018.02.18-16.57.19:180][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.18-16.57.20:521][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.18-16.57.20:572][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.18-16.57.20:628][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.18-16.57.20:680][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.18-16.57.20:739][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.18-16.57.20:803][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.18-16.57.20:857][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.18-16.57.20:978][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.18-16.57.21:039][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.18-16.57.21:087][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.18-16.57.21:150][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.18-16.57.21:260][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.18-16.57.21:317][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.18-16.57.21:397][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.18-16.57.21:534][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.18-16.57.21:534][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.18-16.57.21:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.18-16.57.21:633][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.18-16.57.21:740][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.18-16.57.21:769][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.18-16.57.21:830][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.18-16.57.21:883][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.18-16.57.21:932][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.18-16.57.22:037][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.18-16.57.22:037][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.18-16.57.22:605][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.18-16.57.22:755][  0]LogDerivedDataCache: Loaded boot cache 0.15s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.18-16.57.22:756][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.18-16.57.22:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Motors-Jocs-II/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.18-16.57.22:756][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.18-16.57.22:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Motors-Jocs-II/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.18-16.57.22:756][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.18-16.57.22:779][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.18-16.57.22:794][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.18-16.57.22:818][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.18-16.57.22:818][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.18-16.57.22:819][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.18-16.57.22:819][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.18-16.57.23:324][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.18-16.57.23:775][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.18-16.57.23:816][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.18-16.57.23:816][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.18-16.57.23:816][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.18-16.57.23:816][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.18-16.57.23:816][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.18-16.57.23:861][  0]LogNetVersion: MyProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490074681)
-[2018.02.18-16.57.24:105][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
-[2018.02.18-16.57.24:720][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.051722 seconds
-[2018.02.18-16.57.24:730][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.18-16.57.24:730][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.02.18-16.57.24:730][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.18-16.57.24:784][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.18-16.57.28:942][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.18-16.57.29:021][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.18-16.57.29:872][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.18-16.57.30:510][  0]SourceControl: Source control is disabled
-[2018.02.18-16.57.30:510][  0]SourceControl: Source control is disabled
-[2018.02.18-16.57.30:567][  0]SourceControl: Source control is disabled
-[2018.02.18-16.57.30:627][  0]SourceControl: Source control is disabled
-[2018.02.18-16.57.31:771][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.18-16.57.32:170][  0]LogOcInput: OculusInput pre-init called
-[2018.02.18-16.57.32:611][  0]LogEngine: Initializing Engine...
-[2018.02.18-16.57.32:614][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.18-16.57.32:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.18-16.57.32:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.18-16.57.33:104][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.18-16.57.33:116][  0]LogInit: XAudio2 using 'BenQ LCD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.18-16.57.33:131][  0]LogInit: FAudioDevice initialized.
-[2018.02.18-16.57.33:271][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.18-16.57.33:296][  0]LogInit: Texture streaming: Enabled
-[2018.02.18-16.57.33:437][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.18-16.57.33:656][  0]LogInit: Transaction tracking system initialized
-[2018.02.18-16.57.34:013][  0]BlueprintLog: New page: Editor Load
-[2018.02.18-16.57.35:094][  0]LocalizationService: Localization service is disabled
-[2018.02.18-16.57.36:293][  0]LogConsoleResponse: Display: 
-[2018.02.18-16.57.36:505][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/MyProject/Content/' took 0.01s
-[2018.02.18-16.57.36:505][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.18-16.57.36:505][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.18-16.57.36:505][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.18-16.57.38:090][  0]SourceControl: Source control is disabled
-[2018.02.18-16.57.38:090][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.18-16.57.38:091][  0]LightingResults: New page: Lighting Build
-[2018.02.18-16.57.38:137][  0]MapCheck: New page: Map Check
-[2018.02.18-16.57.38:138][  0]LightingResults: New page: Lighting Build
-[2018.02.18-16.57.38:466][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.02.18-16.57.38:475][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.18-16.57.38:495][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.18-16.57.38:547][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.162ms to complete.
-[2018.02.18-16.57.38:547][  0]LogFileHelpers: Loading map 'Template_Default' took 0.457
-[2018.02.18-16.57.39:276][  0]LogCollectionManager: Loaded 0 collections in 0.001126 seconds
-[2018.02.18-16.57.39:422][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/MyProject/Saved/Collections/' took 0.01s
-[2018.02.18-16.57.39:422][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/MyProject/Content/Developers/Aleix/Collections/' took 0.01s
-[2018.02.18-16.57.39:422][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/MyProject/Content/Collections/' took 0.01s
-[2018.02.18-16.57.39:422][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.18-16.57.39:435][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2363 classes and 519 folders.
-[2018.02.18-16.57.39:587][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.02.18-16.57.40:448][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.02.18-16.57.40:583][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.02.18-16.57.41:523][  0]LogSlate: Took 0.001109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.18-16.57.41:527][  0]LogSlate: Took 0.000472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.18-16.57.41:634][  0]LogSlate: Took 0.016612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.18-16.57.41:953][  0]LogRenderer: Reallocating scene render targets to support 1288x736 Format 10 NumSamples 1 (Frame:1).
-[2018.02.18-16.57.42:593][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.18-16.57.42:593][  0]LogLoad: (Engine Initialization) Total time: 28.58 seconds
-[2018.02.18-16.57.42:593][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.18-16.57.42:593][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.18-16.57.42:612][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.18-16.57.42:713][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.18-16.57.42:899][  3]LogAssetRegistry: Asset discovery search completed in 18.8157 seconds
-[2018.02.18-16.57.42:901][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.18-16.57.42:901][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
-[2018.02.18-16.57.50:481][697]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2018.02.18-16.57.50:481][697]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2018.02.18-16.57.50:526][697]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter'
-[2018.02.18-16.57.52:164][845]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
-[2018.02.18-16.57.52:164][845]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
-[2018.02.18-16.57.52:164][845]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile'
-[2018.02.18-16.57.52:779][897]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
-[2018.02.18-16.57.52:779][897]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
-[2018.02.18-16.57.52:779][897]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode'
-[2018.02.18-16.57.53:211][937]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonHUD'
-[2018.02.18-16.57.53:212][937]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonHUD'
-[2018.02.18-16.57.53:212][937]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD'
-[2018.02.18-16.57.53:463][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.02.18-16.57.54:275][958]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_AnimBP'
-[2018.02.18-16.57.54:276][958]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_AnimBP'
-[2018.02.18-16.57.54:276][958]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP'
-[2018.02.18-16.57.54:912][  6]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms'
-[2018.02.18-16.57.54:912][  6]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms'
-[2018.02.18-16.57.54:912][  6]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms'
-[2018.02.18-16.57.55:367][ 38]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton'
-[2018.02.18-16.57.55:367][ 38]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton'
-[2018.02.18-16.57.55:367][ 38]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.SK_Mannequin_Arms_Skeleton'
-[2018.02.18-16.57.55:551][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_Fire'
-[2018.02.18-16.57.55:551][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_Fire'
-[2018.02.18-16.57.55:551][ 51]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Animations/FirstPerson_Fire.FirstPerson_Fire'
-[2018.02.18-16.57.55:551][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_Idle'
-[2018.02.18-16.57.55:551][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_Idle'
-[2018.02.18-16.57.55:551][ 51]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Animations/FirstPerson_Idle.FirstPerson_Idle'
-[2018.02.18-16.57.55:551][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_JumpEnd'
-[2018.02.18-16.57.55:552][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_JumpEnd'
-[2018.02.18-16.57.55:552][ 51]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Animations/FirstPerson_JumpEnd.FirstPerson_JumpEnd'
-[2018.02.18-16.57.55:552][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_JumpLoop'
-[2018.02.18-16.57.55:552][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_JumpLoop'
-[2018.02.18-16.57.55:552][ 51]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Animations/FirstPerson_JumpLoop.FirstPerson_JumpLoop'
-[2018.02.18-16.57.55:552][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_JumpStart'
-[2018.02.18-16.57.55:552][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_JumpStart'
-[2018.02.18-16.57.55:552][ 51]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Animations/FirstPerson_JumpStart.FirstPerson_JumpStart'
-[2018.02.18-16.57.55:552][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_Run'
-[2018.02.18-16.57.55:552][ 51]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_Run'
-[2018.02.18-16.57.55:553][ 51]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Animations/FirstPerson_Run.FirstPerson_Run'
-[2018.02.18-16.57.55:738][ 65]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/CubeMaterial'
-[2018.02.18-16.57.55:738][ 65]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/CubeMaterial'
-[2018.02.18-16.57.55:738][ 65]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Geometry/Meshes/CubeMaterial.CubeMaterial'
-[2018.02.18-16.57.55:739][ 65]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
-[2018.02.18-16.57.55:739][ 65]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
-[2018.02.18-16.57.55:739][ 65]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Geometry/Meshes/1M_Cube.1M_Cube'
-[2018.02.18-16.57.55:741][ 65]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/TemplateFloor'
-[2018.02.18-16.57.55:742][ 65]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/TemplateFloor'
-[2018.02.18-16.57.55:742][ 65]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Geometry/Meshes/TemplateFloor.TemplateFloor'
-[2018.02.18-16.57.56:229][ 95]LogLinker: Warning: Can't find file '/Game/FirstPerson/Meshes/FirstPersonProjectileMesh'
-[2018.02.18-16.57.56:230][ 95]LogLinker: Warning: Can't find file '/Game/FirstPerson/Meshes/FirstPersonProjectileMesh'
-[2018.02.18-16.57.56:230][ 95]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Meshes/FirstPersonProjectileMesh.FirstPersonProjectileMesh'
-[2018.02.18-16.57.56:231][ 95]LogLinker: Warning: Can't find file '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial'
-[2018.02.18-16.57.56:231][ 95]LogLinker: Warning: Can't find file '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial'
-[2018.02.18-16.57.56:232][ 95]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Meshes/FirstPersonProjectileMaterial.FirstPersonProjectileMaterial'
-[2018.02.18-16.57.57:248][170]LogLinker: Warning: Can't find file '/Game/FirstPerson/Textures/FirstPersonCrosshair'
-[2018.02.18-16.57.57:248][170]LogLinker: Warning: Can't find file '/Game/FirstPerson/Textures/FirstPersonCrosshair'
-[2018.02.18-16.57.57:248][170]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Textures/FirstPersonCrosshair.FirstPersonCrosshair'
-[2018.02.18-16.57.57:890][213]LogLinker: Warning: Can't find file '/Game/FirstPerson/Audio/FirstPersonTemplateWeaponFire02'
-[2018.02.18-16.57.57:890][213]LogLinker: Warning: Can't find file '/Game/FirstPerson/Audio/FirstPersonTemplateWeaponFire02'
-[2018.02.18-16.57.57:890][213]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.FirstPersonTemplateWeaponFire02'
-[2018.02.18-16.59.22:710][189]LogSlate: Took 0.017728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.18-16.59.24:903][189]LogSavePackage: Save=36.26ms
-[2018.02.18-16.59.24:903][189]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/MyProject/Saved/GameModeTest40B56F474F07EBBE15FD6DABAAC6AD45.tmp' to '../../../../../Github/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/GameModeTest.umap'
-[2018.02.18-16.59.24:917][189]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/GameModeTest.umap
-[2018.02.18-16.59.24:924][189]LogFileHelpers: Saving map 'GameModeTest' took 0.185
-[2018.02.18-16.59.24:935][189]Cmd: MAP LOAD FILE="../../../../../Github/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/GameModeTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.18-16.59.24:935][189]LightingResults: New page: Lighting Build
-[2018.02.18-16.59.24:936][189]LoadErrors: New page: Loading map: GameModeTest.umap
-[2018.02.18-16.59.24:958][189]MapCheck: New page: Map Check
-[2018.02.18-16.59.24:958][189]LightingResults: New page: Lighting Build
-[2018.02.18-16.59.25:061][189]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.18-16.59.25:061][189]LogAIModule: Creating AISystem for world GameModeTest
-[2018.02.18-16.59.25:079][189]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.18-16.59.25:092][189]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.18-16.59.25:155][189]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.43ms to complete.
-[2018.02.18-16.59.25:156][189]LogFileHelpers: Loading map 'GameModeTest' took 0.230
+[2018.02.28-10.47.29:778][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.28-10.47.29:778][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.28-10.47.29:945][  0]LogInit: Computer: DESKTOP-SRIHI8I
+[2018.02.28-10.47.29:945][  0]LogInit: User: Aleix
+[2018.02.28-10.47.29:945][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.02.28-10.47.29:945][  0]LogInit: High frequency timer resolution =3.119140 MHz
+[2018.02.28-10.47.29:955][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.28-10.47.29:955][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.28-10.47.29:955][  0]LogMemory: Process Physical Memory: 276.30 MB used, 276.30 MB peak
+[2018.02.28-10.47.29:955][  0]LogMemory: Process Virtual Memory: 270.27 MB used, 270.27 MB peak
+[2018.02.28-10.47.29:955][  0]LogMemory: Physical Memory: 5722.84 MB used,  10613.78 MB free, 16336.63 MB total
+[2018.02.28-10.47.29:955][  0]LogMemory: Virtual Memory: 683.54 MB used,  10613.78 MB free, 134217728.00 MB total
+[2018.02.28-10.47.30:603][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.02.28-10.47.30:603][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.02.28-10.47.31:601][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.28-10.47.33:927][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.28-10.47.35:431][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.02.28-10.47.35:431][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.28-10.47.35:436][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.28-10.47.35:436][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.28-10.47.35:436][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.28-10.47.35:452][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.28-10.47.35:452][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.28-10.47.35:452][  0]LogWindows: EnumDisplayDevices:
+[2018.02.28-10.47.35:453][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.02.28-10.47.35:462][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.02.28-10.47.35:462][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.02.28-10.47.35:463][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.02.28-10.47.35:463][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.28-10.47.35:463][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.02.28-10.47.35:463][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.28-10.47.35:463][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.28-10.47.35:463][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.02.28-10.47.35:537][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.28-10.47.35:915][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 7)
+[2018.02.28-10.47.36:186][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../Github/Motors-Jocs-II/MyProject/Intermediate/Shaders/WorkingDirectory/28836/).
+[2018.02.28-10.47.36:186][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/6D8115FE4F1A66CC9E8E4FA2D8F9E55A/'.
+[2018.02.28-10.47.36:193][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.28-10.47.39:747][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.28-10.47.39:801][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.28-10.47.39:853][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.28-10.47.39:915][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.28-10.47.39:996][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.28-10.47.40:047][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.28-10.47.40:099][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.28-10.47.40:149][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.28-10.47.40:192][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.28-10.47.40:246][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.28-10.47.40:303][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.28-10.47.40:359][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.28-10.47.40:413][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.28-10.47.40:467][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
