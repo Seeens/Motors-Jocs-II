@@ -248,3 +248,62 @@ LogInit: Object subsystem initialized
 [2018.02.28-10.47.40:359][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
 [2018.02.28-10.47.40:413][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
 [2018.02.28-10.47.40:467][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.28-10.47.40:690][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.28-10.47.40:690][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.28-10.47.40:764][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.28-10.47.40:822][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.28-10.47.41:088][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.28-10.47.41:136][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.28-10.47.41:197][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.28-10.47.41:250][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.28-10.47.41:305][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.28-10.47.41:385][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.28-10.47.41:385][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.28-10.47.42:441][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.28-10.47.42:999][  0]LogDerivedDataCache: Loaded boot cache 0.56s 79MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.28-10.47.42:999][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.28-10.47.42:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Motors-Jocs-II/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.28-10.47.42:999][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.28-10.47.43:000][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Motors-Jocs-II/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.28-10.47.43:000][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.28-10.47.43:040][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.28-10.47.43:053][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.28-10.47.43:114][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.28-10.47.43:150][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.28-10.47.43:248][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.28-10.47.43:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.28-10.47.48:864][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.28-10.47.50:430][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.28-10.47.50:513][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.28-10.47.50:514][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.28-10.47.50:514][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.28-10.47.50:514][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.28-10.47.50:514][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.28-10.47.50:977][  0]LogNetVersion: MyProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490074681)
+[2018.02.28-10.47.52:184][  0]LogAssetRegistry: FAssetRegistry took 0.0481 seconds to start up
+[2018.02.28-10.47.56:408][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.172214 seconds
+[2018.02.28-10.47.56:446][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.28-10.47.56:446][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.28-10.47.56:446][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.28-10.47.56:532][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.28-10.48.11:855][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.28-10.48.11:930][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.28-10.48.13:671][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.28-10.48.14:593][  0]SourceControl: Source control is disabled
+[2018.02.28-10.48.14:605][  0]SourceControl: Source control is disabled
+[2018.02.28-10.48.14:704][  0]SourceControl: Source control is disabled
+[2018.02.28-10.48.14:791][  0]SourceControl: Source control is disabled
+[2018.02.28-10.48.16:432][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.28-10.48.16:815][  0]LogOcInput: OculusInput pre-init called
+[2018.02.28-10.48.17:717][  0]LogEngine: Initializing Engine...
+[2018.02.28-10.48.17:783][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.28-10.48.18:526][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.28-10.48.18:526][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.28-10.48.18:985][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.28-10.48.19:120][  0]LogInit: XAudio2 using 'BenQ LCD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.28-10.48.19:148][  0]LogInit: FAudioDevice initialized.
+[2018.02.28-10.48.19:339][  0]LogDerivedDataCache: Saved boot cache 0.17s 79MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.28-10.48.19:375][  0]LogInit: Texture streaming: Enabled
+[2018.02.28-10.48.19:652][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.28-10.48.19:872][  0]LogInit: Transaction tracking system initialized
+[2018.02.28-10.48.20:432][  0]BlueprintLog: New page: Editor Load
