@@ -1,4 +1,4 @@
-﻿Log file open, 03/05/18 23:44:37
+﻿Log file open, 03/11/18 16:37:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-485085213) SRandInit(-485085213).
+LogInit: Display: RandInit(-1024962105) SRandInit(-1024962105).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.288291
+LogStats: Stats thread started at 0.337590
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,307 +196,476 @@ LogInit: Base directory: D:/Unreal/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.05-22.44.39:090][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.05-22.44.39:090][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.05-22.44.39:100][  0]LogInit: Computer: DESKTOP-SRIHI8I
-[2018.03.05-22.44.39:100][  0]LogInit: User: Aleix
-[2018.03.05-22.44.39:100][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.03.05-22.44.39:100][  0]LogInit: High frequency timer resolution =3.119140 MHz
-[2018.03.05-22.44.39:101][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.03.05-22.44.39:101][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.05-22.44.39:101][  0]LogMemory: Process Physical Memory: 275.92 MB used, 275.92 MB peak
-[2018.03.05-22.44.39:101][  0]LogMemory: Process Virtual Memory: 270.31 MB used, 270.31 MB peak
-[2018.03.05-22.44.39:101][  0]LogMemory: Physical Memory: 5163.75 MB used,  11172.88 MB free, 16336.63 MB total
-[2018.03.05-22.44.39:101][  0]LogMemory: Virtual Memory: 683.54 MB used,  11172.88 MB free, 134217728.00 MB total
-[2018.03.05-22.44.39:249][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.03.05-22.44.39:249][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.03.05-22.44.39:879][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.05-22.44.40:246][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.05-22.44.40:338][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.03.05-22.44.40:338][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.05-22.44.40:342][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.05-22.44.40:342][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.05-22.44.40:342][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.05-22.44.40:352][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.05-22.44.40:352][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.05-22.44.40:352][  0]LogWindows: EnumDisplayDevices:
-[2018.03.05-22.44.40:352][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.03.05-22.44.40:353][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.03.05-22.44.40:353][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.03.05-22.44.40:353][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.03.05-22.44.40:353][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.05-22.44.40:353][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.03.05-22.44.40:353][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.05-22.44.40:353][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.05-22.44.40:353][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.03.05-22.44.40:412][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.05-22.44.40:441][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.03.05-22.44.40:492][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Intermediate/Shaders/WorkingDirectory/10396/).
-[2018.03.05-22.44.40:492][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/B239D8854ACC9194A7F9E7ACB552D4B2/'.
-[2018.03.05-22.44.40:492][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.05-22.44.41:784][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.05-22.44.41:838][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.05-22.44.41:893][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.05-22.44.41:969][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.05-22.44.42:062][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.05-22.44.42:152][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.05-22.44.42:225][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.05-22.44.42:275][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.05-22.44.42:318][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.05-22.44.42:392][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.05-22.44.42:456][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.05-22.44.42:508][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.05-22.44.42:559][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.05-22.44.42:632][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.05-22.44.42:796][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.05-22.44.42:796][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.05-22.44.42:862][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.05-22.44.42:928][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.05-22.44.43:037][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.05-22.44.43:081][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.05-22.44.43:150][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.05-22.44.43:215][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.05-22.44.43:274][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.05-22.44.43:339][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.05-22.44.43:339][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.05-22.44.43:900][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.05-22.44.44:033][  0]LogDerivedDataCache: Loaded boot cache 0.13s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.05-22.44.44:034][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.05-22.44.44:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.05-22.44.44:034][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.05-22.44.44:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.05-22.44.44:034][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.05-22.44.44:084][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.05-22.44.44:096][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.05-22.44.44:108][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.05-22.44.44:108][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.05-22.44.44:109][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.05-22.44.44:109][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.05-22.44.44:709][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.05-22.44.45:155][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.05-22.44.45:191][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.05-22.44.45:191][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.05-22.44.45:191][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.05-22.44.45:191][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.05-22.44.45:191][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.05-22.44.45:222][  0]LogNetVersion: MyProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490074681)
-[2018.03.05-22.44.45:421][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
-[2018.03.05-22.44.46:018][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.038559 seconds
-[2018.03.05-22.44.46:026][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.05-22.44.46:026][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.05-22.44.46:026][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.05-22.44.46:092][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.05-22.44.49:667][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.05-22.44.49:720][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.05-22.44.50:603][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.05-22.44.51:149][  0]SourceControl: Source control is disabled
-[2018.03.05-22.44.51:149][  0]SourceControl: Source control is disabled
-[2018.03.05-22.44.51:255][  0]SourceControl: Source control is disabled
-[2018.03.05-22.44.51:321][  0]SourceControl: Source control is disabled
-[2018.03.05-22.44.52:480][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.05-22.44.52:876][  0]LogOcInput: OculusInput pre-init called
-[2018.03.05-22.44.53:301][  0]LogEngine: Initializing Engine...
-[2018.03.05-22.44.53:305][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.05-22.44.53:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.05-22.44.53:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.05-22.44.53:737][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.05-22.44.53:749][  0]LogInit: XAudio2 using 'BenQ LCD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.05-22.44.53:777][  0]LogInit: FAudioDevice initialized.
-[2018.03.05-22.44.53:913][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.05-22.44.53:935][  0]LogInit: Texture streaming: Enabled
-[2018.03.05-22.44.54:069][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.05-22.44.54:227][  0]LogInit: Transaction tracking system initialized
-[2018.03.05-22.44.54:571][  0]BlueprintLog: New page: Editor Load
-[2018.03.05-22.44.55:629][  0]LocalizationService: Localization service is disabled
-[2018.03.05-22.44.56:849][  0]LogConsoleResponse: Display: 
-[2018.03.05-22.44.57:057][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.05-22.44.57:057][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.05-22.44.57:058][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.05-22.44.57:485][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.02s
-[2018.03.05-22.44.58:477][  0]SourceControl: Source control is disabled
-[2018.03.05-22.44.58:477][  0]Cmd: MAP LOAD FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.05-22.44.58:477][  0]LightingResults: New page: Lighting Build
-[2018.03.05-22.44.58:531][  0]MapCheck: New page: Map Check
-[2018.03.05-22.44.58:531][  0]LightingResults: New page: Lighting Build
-[2018.03.05-22.44.58:593][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.03.05-22.44.58:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.05-22.44.58:622][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.05-22.44.58:708][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.045ms to complete.
-[2018.03.05-22.44.58:709][  0]LogFileHelpers: Loading map 'MainMenu' took 0.232
-[2018.03.05-22.44.58:897][  0]LogCollectionManager: Loaded 0 collections in 0.001355 seconds
-[2018.03.05-22.44.58:986][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Collections/' took 0.01s
-[2018.03.05-22.44.58:986][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Developers/Aleix/Collections/' took 0.01s
-[2018.03.05-22.44.58:986][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Collections/' took 0.01s
-[2018.03.05-22.44.58:986][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.05-22.44.58:998][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2363 classes and 519 folders.
-[2018.03.05-22.44.59:072][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.05-22.44.59:141][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.05-22.44.59:190][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.05-22.44.59:264][  0]LogSlate: Took 0.000797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.05-22.44.59:267][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.05-22.44.59:276][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.05-22.44.59:392][  0]LogRenderer: Reallocating scene render targets to support 1292x736 Format 10 NumSamples 1 (Frame:1).
-[2018.03.05-22.44.59:601][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.05-22.44.59:602][  0]LogLoad: (Engine Initialization) Total time: 23.70 seconds
-[2018.03.05-22.44.59:602][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.05-22.44.59:602][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.05-22.44.59:971][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.05-22.45.00:275][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.32s
-[2018.03.05-22.45.00:292][  1]LogAssetRegistry: Asset discovery search completed in 14.8938 seconds
-[2018.03.05-22.45.00:294][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.03.05-22.45.00:294][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
-[2018.03.05-22.45.00:943][  3]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.05-22.45.05:321][ 16]AssetReimport: New page: Outstanding source content changes 12:45:05 AM
-[2018.03.05-22.45.05:345][ 16]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber.obj)
-[2018.03.05-22.45.05:456][ 16]LogFbx: Loading FBX Scene from D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber.obj
-[2018.03.05-22.45.06:125][ 16]LogFbx: FBX Scene Loaded Succesfully
-[2018.03.05-22.45.12:533][ 16]LogFbx: Loading FBX Scene from D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber.obj
-[2018.03.05-22.45.13:241][ 16]LogFbx: FBX Scene Loaded Succesfully
-[2018.03.05-22.45.13:243][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Capsule001Mat'
-[2018.03.05-22.45.13:243][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Capsule001Mat'
-[2018.03.05-22.45.13:349][ 16]LogMaterial: Missing cached shader map for material Capsule001Mat, compiling. 
-[2018.03.05-22.45.13:619][ 16]LogStaticMesh: Building static mesh lightsaber_Capsule001...
-[2018.03.05-22.45.13:644][ 16]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/3DModels/lightsaber_Capsule001.lightsaber_Capsule001
-[2018.03.05-22.45.13:786][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/ChamferCyl01Mat'
-[2018.03.05-22.45.13:786][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/ChamferCyl01Mat'
-[2018.03.05-22.45.13:789][ 16]LogMaterial: Missing cached shader map for material ChamferCyl01Mat, compiling. 
-[2018.03.05-22.45.14:320][ 16]LogStaticMesh: Building static mesh lightsaber_ChamferCyl01...
-[2018.03.05-22.45.14:425][ 16]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/3DModels/lightsaber_ChamferCyl01.lightsaber_ChamferCyl01
-[2018.03.05-22.45.14:478][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder02Mat'
-[2018.03.05-22.45.14:478][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder02Mat'
-[2018.03.05-22.45.14:483][ 16]LogMaterial: Missing cached shader map for material Cylinder02Mat, compiling. 
-[2018.03.05-22.45.15:101][ 16]LogStaticMesh: Building static mesh lightsaber_Cylinder02...
-[2018.03.05-22.45.15:236][ 16]LogStaticMesh: Built static mesh [0.14s] /Game/Assets/3DModels/lightsaber_Cylinder02.lightsaber_Cylinder02
-[2018.03.05-22.45.15:337][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder04Mat'
-[2018.03.05-22.45.15:337][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder04Mat'
-[2018.03.05-22.45.15:349][ 16]LogMaterial: Missing cached shader map for material Cylinder04Mat, compiling. 
-[2018.03.05-22.45.16:773][ 16]LogStaticMesh: Building static mesh lightsaber_Cylinder04...
-[2018.03.05-22.45.17:318][ 16]LogStaticMesh: Built static mesh [0.55s] /Game/Assets/3DModels/lightsaber_Cylinder04.lightsaber_Cylinder04
-[2018.03.05-22.45.17:579][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder05Mat'
-[2018.03.05-22.45.17:579][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder05Mat'
-[2018.03.05-22.45.17:584][ 16]LogMaterial: Missing cached shader map for material Cylinder05Mat, compiling. 
-[2018.03.05-22.45.17:965][ 16]LogStaticMesh: Building static mesh lightsaber_Cylinder05...
-[2018.03.05-22.45.18:040][ 16]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/3DModels/lightsaber_Cylinder05.lightsaber_Cylinder05
-[2018.03.05-22.45.18:086][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder06Mat'
-[2018.03.05-22.45.18:086][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Cylinder06Mat'
-[2018.03.05-22.45.18:095][ 16]LogMaterial: Missing cached shader map for material Cylinder06Mat, compiling. 
-[2018.03.05-22.45.18:327][ 16]LogStaticMesh: Building static mesh lightsaber_Cylinder06...
-[2018.03.05-22.45.18:356][ 16]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/3DModels/lightsaber_Cylinder06.lightsaber_Cylinder06
-[2018.03.05-22.45.18:392][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/emetteurMat'
-[2018.03.05-22.45.18:392][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/emetteurMat'
-[2018.03.05-22.45.18:398][ 16]LogMaterial: Missing cached shader map for material emetteurMat, compiling. 
-[2018.03.05-22.45.18:654][ 16]LogStaticMesh: Building static mesh lightsaber_emetteur...
-[2018.03.05-22.45.18:708][ 16]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/3DModels/lightsaber_emetteur.lightsaber_emetteur
-[2018.03.05-22.45.18:750][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Plane002Mat'
-[2018.03.05-22.45.18:750][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Plane002Mat'
-[2018.03.05-22.45.18:757][ 16]LogMaterial: Missing cached shader map for material Plane002Mat, compiling. 
-[2018.03.05-22.45.18:806][ 16]LogStaticMesh: Building static mesh lightsaber_Plane002...
-[2018.03.05-22.45.18:808][ 16]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/lightsaber_Plane002.lightsaber_Plane002
-[2018.03.05-22.45.18:809][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Plane003Mat'
-[2018.03.05-22.45.18:810][ 16]LogLinker: Can't find file '/Game/Assets/3DModels/Plane003Mat'
-[2018.03.05-22.45.18:816][ 16]LogMaterial: Missing cached shader map for material Plane003Mat, compiling. 
-[2018.03.05-22.45.18:869][ 16]LogStaticMesh: Building static mesh lightsaber_Plane003...
-[2018.03.05-22.45.18:871][ 16]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/lightsaber_Plane003.lightsaber_Plane003
-[2018.03.05-22.45.19:077][ 17]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.05-22.45.19:118][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/lightsaber" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber.uasset" SILENT=true
-[2018.03.05-22.45.19:121][ 17]LogSavePackage: Save=2.01ms
-[2018.03.05-22.45.19:121][ 17]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber95E7BEE14BA8EBFC01753ABD57AE96A0.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber.uasset'
-[2018.03.05-22.45.19:123][ 17]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber.uasset
-[2018.03.05-22.45.22:421][122]AssetReimport: Importing new asset /Game/Assets/3DModels/lightsaber.
-[2018.03.05-22.45.37:506][222]LogActorFactory: Actor Factory created lightsaber_ChamferCyl01
-[2018.03.05-22.45.37:644][232]LogActorFactory: Actor Factory created lightsaber_ChamferCyl01
-[2018.03.05-22.45.39:185][366]Cmd: DELETE
-[2018.03.05-22.45.39:185][366]Cmd: ACTOR DELETE
-[2018.03.05-22.45.39:200][366]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-22.45.39:222][366]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2018.03.05-22.49.10:239][368]SourceControl: On branch IA_v1.2
-[2018.03.05-22.49.10:240][368]SourceControl: Your branch is ahead of 'origin/IA_v1.2' by 1 commit.
-[2018.03.05-22.49.10:240][368]SourceControl:   (use "git push" to publish your local commits)
-[2018.03.05-22.49.10:240][368]SourceControl: Changes not staged for commit:
-[2018.03.05-22.49.10:240][368]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2018.03.05-22.49.10:240][368]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.03.05-22.49.10:240][368]SourceControl: 	modified:   MyProject/Intermediate/CachedAssetRegistry.bin
-[2018.03.05-22.49.10:240][368]SourceControl: 	modified:   MyProject/Intermediate/ReimportCache/3688439234.bin
-[2018.03.05-22.49.10:240][368]SourceControl: 	modified:   MyProject/Saved/Config/Windows/Editor.ini
-[2018.03.05-22.49.10:240][368]SourceControl: 	modified:   MyProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.03.05-22.49.10:240][368]SourceControl: 	modified:   MyProject/Saved/Config/Windows/Engine.ini
-[2018.03.05-22.49.10:240][368]SourceControl: 	deleted:    MyProject/Saved/Logs/MyProject-backup-2018.02.28-15.36.40.log
-[2018.03.05-22.49.10:240][368]SourceControl: 	modified:   MyProject/Saved/Logs/MyProject.log
-[2018.03.05-22.49.10:240][368]SourceControl: Untracked files:
-[2018.03.05-22.49.10:240][368]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2018.03.05-22.49.10:240][368]SourceControl: 	MyProject/Content/Assets/3DModels/lightsaber.uasset
-[2018.03.05-22.49.10:240][368]SourceControl: 	MyProject/Saved/Config/CrashReportClient/UE4CC-Windows-FEC3BC924076A0084CE4469727FDF3E7/
-[2018.03.05-22.49.10:240][368]SourceControl: 	MyProject/Saved/Logs/MyProject-backup-2018.03.05-23.44.37.log
-[2018.03.05-22.49.10:240][368]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.03.05-22.49.14:679][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.05-22.49.14:895][811]LogSavePackage: Save=119.74ms
-[2018.03.05-22.49.14:895][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/MainMenu90679FA84656BA7E0FBC02976BB60D4D.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap'
-[2018.03.05-22.49.14:897][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap
-[2018.03.05-22.49.14:970][811]LogFileHelpers: Saving map 'MainMenu' took 0.340
-[2018.03.05-22.49.15:017][811]LogSavePackage: Save=21.99ms
-[2018.03.05-22.49.15:018][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_Capsule0015E4BD8F44FC34CEB4D1C0B81498D1E21.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Capsule001.uasset'
-[2018.03.05-22.49.15:022][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Capsule001.uasset
-[2018.03.05-22.49.15:445][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Capsule001Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Capsule001Mat.uasset" SILENT=true
-[2018.03.05-22.49.15:456][811]LogSavePackage: Save=10.24ms
-[2018.03.05-22.49.15:456][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Capsule001Mat511702034392AA6D2A17D8B8710DAB54.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Capsule001Mat.uasset'
-[2018.03.05-22.49.15:458][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Capsule001Mat.uasset
-[2018.03.05-22.49.15:844][811]LogSavePackage: Save=10.22ms
-[2018.03.05-22.49.15:844][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_ChamferCyl01D54A55774A0782B87F8C468FD44BDEB2.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_ChamferCyl01.uasset'
-[2018.03.05-22.49.15:848][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_ChamferCyl01.uasset
-[2018.03.05-22.49.16:202][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/ChamferCyl01Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/ChamferCyl01Mat.uasset" SILENT=true
-[2018.03.05-22.49.16:213][811]LogSavePackage: Save=10.26ms
-[2018.03.05-22.49.16:213][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/ChamferCyl01Mat50C8425A402E19722E7C2B9EDC6AA260.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/ChamferCyl01Mat.uasset'
-[2018.03.05-22.49.16:217][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/ChamferCyl01Mat.uasset
-[2018.03.05-22.49.16:570][811]LogSavePackage: Save=11.95ms
-[2018.03.05-22.49.16:570][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_Cylinder02EC593836423C7FC665C8EB95BEA73D79.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder02.uasset'
-[2018.03.05-22.49.16:572][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder02.uasset
-[2018.03.05-22.49.16:926][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Cylinder02Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder02Mat.uasset" SILENT=true
-[2018.03.05-22.49.16:940][811]LogSavePackage: Save=12.11ms
-[2018.03.05-22.49.16:940][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Cylinder02MatFB3258AE4F2ACDD26DC2A3ACDAE12A96.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder02Mat.uasset'
-[2018.03.05-22.49.16:942][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder02Mat.uasset
-[2018.03.05-22.49.17:275][811]LogSavePackage: Save=20.86ms
-[2018.03.05-22.49.17:275][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_Cylinder040B7160154C0A8BF3FFF830B4469D2AD8.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder04.uasset'
-[2018.03.05-22.49.17:277][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder04.uasset
-[2018.03.05-22.49.17:667][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Cylinder04Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder04Mat.uasset" SILENT=true
-[2018.03.05-22.49.17:679][811]LogSavePackage: Save=10.78ms
-[2018.03.05-22.49.17:679][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Cylinder04MatFC6CAB1349FE87CB3A629B9A5E166CD9.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder04Mat.uasset'
-[2018.03.05-22.49.17:682][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder04Mat.uasset
-[2018.03.05-22.49.18:067][811]LogSavePackage: Save=22.50ms
-[2018.03.05-22.49.18:067][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_Cylinder050D145A764D0351C03D85A8BCBB8335D9.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder05.uasset'
-[2018.03.05-22.49.18:069][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder05.uasset
-[2018.03.05-22.49.18:399][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Cylinder05Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder05Mat.uasset" SILENT=true
-[2018.03.05-22.49.18:412][811]LogSavePackage: Save=11.16ms
-[2018.03.05-22.49.18:412][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Cylinder05Mat806CECA44295EDAA532B0EAAFC499EC4.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder05Mat.uasset'
-[2018.03.05-22.49.18:413][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder05Mat.uasset
-[2018.03.05-22.49.18:727][811]LogSavePackage: Save=10.48ms
-[2018.03.05-22.49.18:727][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_Cylinder06AF62DC2143FA5260FE8655ADFE2CC635.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder06.uasset'
-[2018.03.05-22.49.18:729][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Cylinder06.uasset
-[2018.03.05-22.49.19:050][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Cylinder06Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder06Mat.uasset" SILENT=true
-[2018.03.05-22.49.19:082][811]LogSavePackage: Save=31.14ms
-[2018.03.05-22.49.19:082][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Cylinder06MatB914AC904F46A1DDDEA95BBE1C10CC37.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder06Mat.uasset'
-[2018.03.05-22.49.19:085][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Cylinder06Mat.uasset
-[2018.03.05-22.49.19:372][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/lightsaber_emetteur" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_emetteur.uasset" SILENT=true
-[2018.03.05-22.49.19:384][811]LogSavePackage: Save=10.48ms
-[2018.03.05-22.49.19:384][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_emetteur9DCDE92A4F17F417FA9B50A70E90D537.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_emetteur.uasset'
-[2018.03.05-22.49.19:386][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_emetteur.uasset
-[2018.03.05-22.49.19:685][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/emetteurMat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/emetteurMat.uasset" SILENT=true
-[2018.03.05-22.49.19:697][811]LogSavePackage: Save=10.25ms
-[2018.03.05-22.49.19:697][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/emetteurMat3AE799DF4D80929B7C6B668AD9246FCD.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/emetteurMat.uasset'
-[2018.03.05-22.49.19:698][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/emetteurMat.uasset
-[2018.03.05-22.49.20:010][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/lightsaber_Plane002" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Plane002.uasset" SILENT=true
-[2018.03.05-22.49.20:022][811]LogSavePackage: Save=10.12ms
-[2018.03.05-22.49.20:022][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_Plane00231082F76497045DFD9633CB77B308167.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Plane002.uasset'
-[2018.03.05-22.49.20:024][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Plane002.uasset
-[2018.03.05-22.49.20:339][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Plane002Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Plane002Mat.uasset" SILENT=true
-[2018.03.05-22.49.20:351][811]LogSavePackage: Save=10.73ms
-[2018.03.05-22.49.20:351][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Plane002MatC725186C49151B6562FD69B21A0C62AC.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Plane002Mat.uasset'
-[2018.03.05-22.49.20:353][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Plane002Mat.uasset
-[2018.03.05-22.49.20:656][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/lightsaber_Plane003" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Plane003.uasset" SILENT=true
-[2018.03.05-22.49.20:687][811]LogSavePackage: Save=29.46ms
-[2018.03.05-22.49.20:687][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/lightsaber_Plane00313365B82407470607516BC92178146AE.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Plane003.uasset'
-[2018.03.05-22.49.20:689][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/lightsaber_Plane003.uasset
-[2018.03.05-22.49.21:005][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Plane003Mat" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Plane003Mat.uasset" SILENT=true
-[2018.03.05-22.49.21:035][811]LogSavePackage: Save=29.51ms
-[2018.03.05-22.49.21:035][811]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Plane003MatC6D869DB44AD44AE8425C7958450FD42.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Plane003Mat.uasset'
-[2018.03.05-22.49.21:037][811]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Plane003Mat.uasset
-[2018.03.05-22.49.26:452][363]SourceControl: fatal: D:/Unreal/UE_4.18/Engine/Content/: 'D:/Unreal/UE_4.18/Engine/Content/' is outside repository
+[2018.03.11-15.37.33:369][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-15.37.33:369][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.11-15.37.33:380][  0]LogInit: Computer: DESKTOP-SRIHI8I
+[2018.03.11-15.37.33:380][  0]LogInit: User: Aleix
+[2018.03.11-15.37.33:380][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.03.11-15.37.33:380][  0]LogInit: High frequency timer resolution =3.119140 MHz
+[2018.03.11-15.37.33:381][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.11-15.37.33:381][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.11-15.37.33:381][  0]LogMemory: Process Physical Memory: 276.05 MB used, 276.05 MB peak
+[2018.03.11-15.37.33:381][  0]LogMemory: Process Virtual Memory: 270.37 MB used, 270.37 MB peak
+[2018.03.11-15.37.33:381][  0]LogMemory: Physical Memory: 6530.07 MB used,  9806.55 MB free, 16336.63 MB total
+[2018.03.11-15.37.33:381][  0]LogMemory: Virtual Memory: 683.54 MB used,  9806.55 MB free, 134217728.00 MB total
+[2018.03.11-15.37.33:608][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.03.11-15.37.33:608][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.03.11-15.37.34:289][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.11-15.37.34:689][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.11-15.37.34:779][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.03.11-15.37.34:779][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.11-15.37.34:782][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.11-15.37.34:782][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.11-15.37.34:782][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.11-15.37.34:794][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.11-15.37.34:794][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.11-15.37.34:794][  0]LogWindows: EnumDisplayDevices:
+[2018.03.11-15.37.34:794][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.03.11-15.37.34:795][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.11-15.37.34:795][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.11-15.37.34:795][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.11-15.37.34:795][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.11-15.37.34:795][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.03.11-15.37.34:795][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.11-15.37.34:795][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.11-15.37.34:795][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.03.11-15.37.34:854][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.11-15.37.34:881][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.11-15.37.34:933][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Intermediate/Shaders/WorkingDirectory/12528/).
+[2018.03.11-15.37.34:933][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/B749D68F42D263CB3490498FA1FA0B28/'.
+[2018.03.11-15.37.34:933][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.11-15.37.36:189][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.11-15.37.36:251][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.11-15.37.36:347][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.11-15.37.36:429][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.11-15.37.36:482][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.11-15.37.36:564][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.11-15.37.36:638][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.11-15.37.36:709][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.11-15.37.36:808][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.11-15.37.36:859][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.11-15.37.36:940][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.11-15.37.37:023][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.11-15.37.37:116][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.11-15.37.37:168][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.11-15.37.37:329][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.11-15.37.37:329][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.11-15.37.37:427][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.11-15.37.37:518][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.11-15.37.37:659][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.11-15.37.37:697][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.11-15.37.37:766][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.11-15.37.37:834][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.11-15.37.37:904][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.11-15.37.37:955][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.11-15.37.37:955][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.11-15.37.38:544][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.11-15.37.38:672][  0]LogDerivedDataCache: Loaded boot cache 0.13s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.11-15.37.38:672][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.11-15.37.38:672][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.11-15.37.38:672][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.11-15.37.38:673][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.11-15.37.38:673][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.11-15.37.38:716][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.11-15.37.38:728][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.11-15.37.38:752][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.11-15.37.38:753][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.11-15.37.38:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-15.37.38:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-15.37.39:497][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-15.37.40:021][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.11-15.37.40:066][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.11-15.37.40:066][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.11-15.37.40:066][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.11-15.37.40:066][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.11-15.37.40:066][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.11-15.37.40:107][  0]LogNetVersion: MyProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490074681)
+[2018.03.11-15.37.40:294][  0]LogAssetRegistry: FAssetRegistry took 0.0318 seconds to start up
+[2018.03.11-15.37.40:894][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.052675 seconds
+[2018.03.11-15.37.40:903][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.11-15.37.40:903][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.11-15.37.40:903][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.11-15.37.40:964][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.11-15.37.44:590][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.11-15.37.44:638][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.11-15.37.45:418][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.11-15.37.45:923][  0]SourceControl: Source control is disabled
+[2018.03.11-15.37.45:923][  0]SourceControl: Source control is disabled
+[2018.03.11-15.37.45:986][  0]SourceControl: Source control is disabled
+[2018.03.11-15.37.46:070][  0]SourceControl: Source control is disabled
+[2018.03.11-15.37.47:218][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.11-15.37.47:548][  0]LogOcInput: OculusInput pre-init called
+[2018.03.11-15.37.47:932][  0]LogEngine: Initializing Engine...
+[2018.03.11-15.37.47:936][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.11-15.37.48:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.11-15.37.48:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.11-15.37.48:350][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.11-15.37.48:363][  0]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.37.48:387][  0]LogInit: FAudioDevice initialized.
+[2018.03.11-15.37.48:543][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.11-15.37.48:561][  0]LogInit: Texture streaming: Enabled
+[2018.03.11-15.37.48:699][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.11-15.37.48:839][  0]LogInit: Transaction tracking system initialized
+[2018.03.11-15.37.49:278][  0]BlueprintLog: New page: Editor Load
+[2018.03.11-15.37.50:438][  0]LocalizationService: Localization service is disabled
+[2018.03.11-15.37.51:483][  0]LogConsoleResponse: Display: 
+[2018.03.11-15.37.51:701][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.11-15.37.51:702][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.11-15.37.51:702][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.11-15.37.51:708][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.01s
+[2018.03.11-15.37.53:266][  0]SourceControl: Source control is disabled
+[2018.03.11-15.37.53:266][  0]Cmd: MAP LOAD FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-15.37.53:267][  0]LightingResults: New page: Lighting Build
+[2018.03.11-15.37.53:332][  0]MapCheck: New page: Map Check
+[2018.03.11-15.37.53:332][  0]LightingResults: New page: Lighting Build
+[2018.03.11-15.37.53:404][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.11-15.37.53:405][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-15.37.53:427][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-15.37.53:476][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.228ms to complete.
+[2018.03.11-15.37.53:476][  0]LogFileHelpers: Loading map 'MainMenu' took 0.210
+[2018.03.11-15.37.53:672][  0]LogCollectionManager: Loaded 0 collections in 0.001372 seconds
+[2018.03.11-15.37.53:787][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Collections/' took 0.01s
+[2018.03.11-15.37.53:787][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Developers/Aleix/Collections/' took 0.01s
+[2018.03.11-15.37.53:787][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Collections/' took 0.01s
+[2018.03.11-15.37.53:787][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.11-15.37.53:799][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2363 classes and 519 folders.
+[2018.03.11-15.37.53:900][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.11-15.37.53:963][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.11-15.37.54:008][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.11-15.37.54:127][  0]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-15.37.54:131][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.11-15.37.54:146][  0]LogSlate: Took 0.000983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.11-15.37.54:260][  0]LogRenderer: Reallocating scene render targets to support 1292x736 Format 10 NumSamples 1 (Frame:1).
+[2018.03.11-15.37.54:493][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.11-15.37.54:493][  0]LogLoad: (Engine Initialization) Total time: 24.66 seconds
+[2018.03.11-15.37.54:493][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.11-15.37.54:493][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.11-15.37.54:506][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.11-15.37.54:548][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.11-15.37.54:568][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.05s
+[2018.03.11-15.37.54:678][  2]LogAssetRegistry: Asset discovery search completed in 14.4058 seconds
+[2018.03.11-15.37.54:681][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.11-15.37.54:681][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000170 seconds (updated 0 objects)
+[2018.03.11-15.38.04:106][ 11]LogSlate: Took 0.000762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-15.38.04:961][ 11]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-15.38.05:078][ 11]LogAIModule: Creating AISystem for world IATest
+[2018.03.11-15.38.05:233][ 11]Cmd: MAP LOAD FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-15.38.05:233][ 11]LightingResults: New page: Lighting Build
+[2018.03.11-15.38.05:236][ 11]LoadErrors: New page: Loading map: IATest.umap
+[2018.03.11-15.38.05:236][ 11]MapCheck: New page: Map Check
+[2018.03.11-15.38.05:236][ 11]LightingResults: New page: Lighting Build
+[2018.03.11-15.38.05:369][ 11]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-15.38.05:428][ 11]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-15.38.05:502][ 11]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.353ms to complete.
+[2018.03.11-15.38.05:502][ 11]LogFileHelpers: Loading map 'IATest' took 0.273
+[2018.03.11-15.38.07:047][157]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.38.07:141][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.38.07:142][157]PIE: New page: PIE session: IATest (Mar 11, 2018, 5:38:07 PM)
+[2018.03.11-15.38.07:142][157]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.11-15.38.07:149][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006959s)
+[2018.03.11-15.38.07:150][157]LogAIModule: Creating AISystem for world IATest
+[2018.03.11-15.38.07:150][157]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2018.03.11-15.38.07:151][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008490s)
+[2018.03.11-15.38.07:186][157]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.38.07:206][157]LogInit: FAudioDevice initialized.
+[2018.03.11-15.38.07:252][157]LogLoad: Game class is 'GameModeBase'
+[2018.03.11-15.38.07:256][157]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.11-16.38.07
+[2018.03.11-15.38.07:257][157]LogWorld: Bringing up level for play took: 0.003596
+[2018.03.11-15.38.07:316][157]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.11-15.38.07:321][157]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest -0.547
+[2018.03.11-15.38.16:686][973]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.11-15.38.16:915][974]Cmd: QUIT_EDITOR
+[2018.03.11-15.38.17:782][974]LogExit: Preparing to exit.
+[2018.03.11-15.38.18:716][974]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' was aborted.
+[2018.03.11-15.38.18:745][974]LogExit: Editor shut down
+[2018.03.11-15.38.18:750][974]LogExit: Transaction tracking system shut down
+[2018.03.11-15.38.18:803][974]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.11-15.38.18:804][974]LogDirectoryWatcher: A directory notification for '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' was aborted.
+[2018.03.11-15.38.18:804][974]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.11-15.38.18:804][974]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.11-15.38.18:804][974]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.11-15.38.18:804][974]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.11-15.38.18:804][974]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.11-15.38.18:876][974]LogExit: Object subsystem successfully closed.
+[2018.03.11-15.38.18:910][974]LogD3D11RHI: Shutdown
+[2018.03.11-15.38.18:910][974]LogD3D11RHI: CleanupD3DDevice
+[2018.03.11-15.38.18:913][974]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.11-15.38.18:929][974]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2018.03.11-15.38.18:929][974]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.03.11-15.38.18:929][974]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.11-15.38.18:930][974]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.11-15.38.18:930][974]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.11-15.38.18:932][974]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.11-15.38.18:932][974]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.11-15.38.18:932][974]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.11-15.38.18:933][974]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Collections/' was aborted.
+[2018.03.11-15.38.18:933][974]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Developers/Aleix/Collections/' was aborted.
+[2018.03.11-15.38.18:933][974]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Collections/' was aborted.
+[2018.03.11-15.38.18:934][974]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.11-15.38.18:934][974]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.11-15.38.18:934][974]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.11-15.38.18:934][974]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.11-15.38.18:935][974]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.11-15.38.18:936][974]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.11-15.38.18:937][974]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.11-15.38.18:937][974]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.11-15.38.18:937][974]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.11-15.38.18:937][974]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.11-15.38.18:937][974]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.11-15.38.18:937][974]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.11-15.38.19:934][974]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.11-15.38.19:988][974]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.11-15.38.19:989][974]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.11-15.38.20:146][974]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.11-15.38.20:147][974]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.11-15.38.20:148][974]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.11-15.38.20:148][974]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.11-15.38.20:148][974]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.11-15.38.20:148][974]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.11-15.38.20:148][974]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.11-15.38.20:148][974]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.11-15.38.20:149][974]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.11-15.38.20:250][974]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.11-15.38.20:350][974]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.11-15.38.20:350][974]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.11-15.38.20:350][974]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.11-15.38.20:350][974]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.11-15.38.20:350][974]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.11-15.38.20:350][974]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.11-15.38.20:351][974]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.11-15.38.20:351][974]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.11-15.38.20:351][974]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.11-15.38.20:351][974]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.11-15.38.20:354][974]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.11-15.38.20:354][974]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.11-15.38.20:354][974]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.11-15.38.20:354][974]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.11-15.38.20:354][974]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.11-15.38.20:354][974]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.11-15.38.20:360][974]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.11-15.38.20:362][974]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.11-15.38.20:363][974]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.11-15.38.20:751][974]LogDerivedDataCache: Shutdown
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.11-15.38.20:751][974]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.11-15.38.20:752][974]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.11-15.38.20:752][974]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.11-15.38.20:752][974]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5AAF34EF-43B4-7487-B79C-F195609AEA25%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c39c5c09442c47ade7a166a3824dcf60%7C3f090def8e52455785dfe5939754062e%7C4b58a65d-b116-4526-8292-6226abd0ca42&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.11-15.38.20:780][974]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.11-15.38.20:782][974]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.11-15.38.20:782][974]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.11-15.38.20:782][974]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.11-15.38.20:782][974]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.11-15.38.20:782][974]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.11-15.38.20:782][974]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.11-15.38.20:782][974]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.11-15.38.20:783][974]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.11-15.38.20:794][974]LogExit: Exiting.
+[2018.03.11-15.38.20:854][974]Log file closed, 03/11/18 16:38:20
