@@ -1,4 +1,4 @@
-﻿Log file open, 03/18/18 23:37:31
+﻿Log file open, 03/19/18 00:06:56
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(314357068) SRandInit(314357068).
+LogInit: Display: RandInit(1551930102) SRandInit(1551930102).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.854169
+LogStats: Stats thread started at 0.248423
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,217 +196,1037 @@ LogInit: Base directory: D:/Unreal/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.18-22.37.36:965][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.18-22.37.36:965][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.18-22.37.37:140][  0]LogInit: Computer: DESKTOP-SRIHI8I
-[2018.03.18-22.37.37:140][  0]LogInit: User: Aleix
-[2018.03.18-22.37.37:140][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.03.18-22.37.37:140][  0]LogInit: High frequency timer resolution =3.119140 MHz
-[2018.03.18-22.37.37:141][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.03.18-22.37.37:141][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.18-22.37.37:141][  0]LogMemory: Process Physical Memory: 276.14 MB used, 276.14 MB peak
-[2018.03.18-22.37.37:141][  0]LogMemory: Process Virtual Memory: 277.30 MB used, 277.30 MB peak
-[2018.03.18-22.37.37:141][  0]LogMemory: Physical Memory: 4439.84 MB used,  11896.79 MB free, 16336.63 MB total
-[2018.03.18-22.37.37:141][  0]LogMemory: Virtual Memory: 690.60 MB used,  11896.79 MB free, 134217728.00 MB total
-[2018.03.18-22.37.37:856][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.03.18-22.37.37:856][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.03.18-22.37.39:003][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.18-22.37.41:910][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.18-22.37.42:042][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.03.18-22.37.42:043][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.18-22.37.42:047][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.18-22.37.42:047][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.18-22.37.42:047][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.18-22.37.42:059][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.18-22.37.42:059][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.18-22.37.42:059][  0]LogWindows: EnumDisplayDevices:
-[2018.03.18-22.37.42:059][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.03.18-22.37.42:059][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.03.18-22.37.42:059][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.03.18-22.37.42:059][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.03.18-22.37.42:060][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.18-22.37.42:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.03.18-22.37.42:060][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.18-22.37.42:060][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.18-22.37.42:060][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.03.18-22.37.42:149][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.18-22.37.42:410][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.03.18-22.37.42:517][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Intermediate/Shaders/WorkingDirectory/3312/).
-[2018.03.18-22.37.42:517][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/4493DB344E8E067C8A432A80D74CB6AA/'.
-[2018.03.18-22.37.42:518][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.18-22.37.47:469][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.18-22.37.47:569][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.18-22.37.47:667][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.18-22.37.47:746][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.18-22.37.47:860][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.18-22.37.47:951][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.18-22.37.48:031][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.18-22.37.48:140][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.18-22.37.48:229][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.18-22.37.48:307][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.18-22.37.48:374][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.18-22.37.48:475][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.18-22.37.48:544][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.18-22.37.48:595][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.18-22.37.48:695][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.18-22.37.48:695][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.18-22.37.48:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.18-22.37.48:791][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.18-22.37.48:982][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.18-22.37.49:042][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.18-22.37.49:132][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.18-22.37.49:191][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.18-22.37.49:274][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.18-22.37.49:397][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.18-22.37.49:397][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.18-22.37.50:811][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.18-22.37.51:232][  0]LogDerivedDataCache: Loaded boot cache 0.42s 79MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.18-22.37.51:233][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.18-22.37.51:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.18-22.37.51:233][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.18-22.37.51:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.18-22.37.51:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.18-22.37.51:308][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.18-22.37.51:322][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.18-22.37.51:380][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.18-22.37.51:401][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.18-22.37.51:484][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.18-22.37.51:495][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.18-22.37.59:353][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.18-22.38.00:749][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.18-22.38.00:815][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.18-22.38.00:815][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.18-22.38.00:815][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.18-22.38.00:815][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.18-22.38.00:815][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.18-22.38.01:106][  0]LogNetVersion: MyProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490074681)
-[2018.03.18-22.38.02:043][  0]LogAssetRegistry: FAssetRegistry took 0.0450 seconds to start up
-[2018.03.18-22.38.06:237][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.172309 seconds
-[2018.03.18-22.38.06:258][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.18-22.38.06:258][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.18-22.38.06:258][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.18-22.38.06:311][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.18-22.38.27:337][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.18-22.38.27:379][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.18-22.38.28:722][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.18-22.38.29:523][  0]SourceControl: Source control is disabled
-[2018.03.18-22.38.29:536][  0]SourceControl: Source control is disabled
-[2018.03.18-22.38.29:641][  0]SourceControl: Source control is disabled
-[2018.03.18-22.38.29:761][  0]SourceControl: Source control is disabled
-[2018.03.18-22.38.31:375][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.18-22.38.31:734][  0]LogOcInput: OculusInput pre-init called
-[2018.03.18-22.38.32:483][  0]LogEngine: Initializing Engine...
-[2018.03.18-22.38.32:499][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.18-22.38.33:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.18-22.38.33:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.18-22.38.33:650][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.18-22.38.33:757][  0]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.18-22.38.33:824][  0]LogInit: FAudioDevice initialized.
-[2018.03.18-22.38.34:045][  0]LogDerivedDataCache: Saved boot cache 0.22s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.18-22.38.34:066][  0]LogInit: Texture streaming: Enabled
-[2018.03.18-22.38.34:256][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.18-22.38.34:533][  0]LogInit: Transaction tracking system initialized
-[2018.03.18-22.38.35:228][  0]BlueprintLog: New page: Editor Load
-[2018.03.18-22.38.36:963][  0]LocalizationService: Localization service is disabled
-[2018.03.18-22.38.38:837][  0]LogConsoleResponse: Display: 
-[2018.03.18-22.38.40:463][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/ as it will conflict with another watching ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/.
-[2018.03.18-22.38.40:542][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.06s
-[2018.03.18-22.38.40:542][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.18-22.38.40:542][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.18-22.38.40:542][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.18-22.38.42:698][  0]SourceControl: Source control is disabled
-[2018.03.18-22.38.42:719][  0]Cmd: MAP LOAD FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.18-22.38.42:746][  0]LightingResults: New page: Lighting Build
-[2018.03.18-22.38.42:938][  0]MapCheck: New page: Map Check
-[2018.03.18-22.38.42:938][  0]LightingResults: New page: Lighting Build
-[2018.03.18-22.38.43:321][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.03.18-22.38.43:386][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.18-22.38.43:479][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.18-22.38.43:563][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.475ms to complete.
-[2018.03.18-22.38.43:563][  0]LogFileHelpers: Loading map 'MainMenu' took 0.864
-[2018.03.18-22.38.44:358][  0]LogCollectionManager: Loaded 0 collections in 0.002821 seconds
-[2018.03.18-22.38.44:460][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Collections/' took 0.01s
-[2018.03.18-22.38.44:460][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Developers/Aleix/Collections/' took 0.01s
-[2018.03.18-22.38.44:460][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Collections/' took 0.00s
-[2018.03.18-22.38.44:460][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.18-22.38.44:498][  0]LogContentBrowser: Native class hierarchy populated in 0.0224 seconds. Added 2363 classes and 519 folders.
-[2018.03.18-22.38.44:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.18-22.38.45:682][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.03.18-22.38.45:786][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.03.18-22.38.46:539][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.18-22.38.46:539][  0]LogLoad: (Engine Initialization) Total time: 88.01 seconds
-[2018.03.18-22.38.46:539][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.18-22.38.46:539][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.18-22.38.47:076][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.18-22.38.47:129][  0]LogSlate: Took 0.019134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.18-22.38.47:145][  0]LogSlate: Took 0.012324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.18-22.38.47:181][  0]LogSlate: Took 0.013371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.18-22.38.47:606][  1]LogRenderer: Reallocating scene render targets to support 944x712 Format 10 NumSamples 1 (Frame:1).
-[2018.03.18-22.38.47:613][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.65s
-[2018.03.18-22.38.47:950][  2]LogAssetRegistry: Asset discovery search completed in 45.9306 seconds
-[2018.03.18-22.38.47:953][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.18-22.38.47:953][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
-[2018.03.18-22.38.55:395][249]LogRenderer: Reallocating scene render targets to support 1192x736 Format 10 NumSamples 1 (Frame:223).
-[2018.03.18-22.39.01:454][588]LogSlate: Took 0.016842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.18-22.39.02:060][588]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.18-22.39.02:290][588]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
-[2018.03.18-22.39.03:709][588]LogSlate: Took 0.021625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.18-22.39.03:867][589]LogSlate: Took 0.011330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.18-22.39.13:884][531]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.18-22.40.06:370][922]LogSlate: Took 0.015343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.03.18-22.46.59:156][451]LogBlueprint: Warning: [AIBot] 'Bot' variable not found. Base class was probably changed. /Game/BluePrints/IA/AIBot.AIBot
-[2018.03.18-22.46.59:156][451]LogBlueprint: Warning: [AIBot] 'Bot' variable not found. Base class was probably changed. /Game/BluePrints/IA/AIBot.AIBot
-[2018.03.18-22.46.59:382][461]LogBlueprint: Warning: [AIBot] 'Bot' variable not found. Base class was probably changed. /Game/BluePrints/IA/AIBot.AIBot
-[2018.03.18-22.46.59:382][461]LogBlueprint: Warning: [AIBot] 'Bot' variable not found. Base class was probably changed. /Game/BluePrints/IA/AIBot.AIBot
-[2018.03.18-22.47.01:150][576]LogEditorTransaction: Undo Paste clipboard contents
-[2018.03.18-22.47.19:811][ 88]LogEditorTransaction: Undo Move Nodes
-[2018.03.18-22.49.37:446][705]BlueprintLog: New page: Compile AIBot
-[2018.03.18-22.49.37:667][705]LogBlueprint: Error: [Compiler AIBot] This blueprint (self) is not a Bot_C, therefore ' Target ' must have a connection.
-[2018.03.18-22.49.37:668][705]LogBlueprint: Error: [Compiler AIBot] Variable node  Get RangAngleX  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2018.03.18-22.49.38:215][705]LogBlueprint: Warning: [Compiler AIBot] [0739.69] Compile of AIBot failed. 2 Fatal Issue(s) 0 Warning(s) [in 768 ms] (/Game/BluePrints/IA/AIBot.AIBot)
-[2018.03.18-22.49.38:774][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
-[2018.03.18-22.49.39:167][738]LogSavePackage: Save=154.09ms
-[2018.03.18-22.49.39:168][738]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotCCE713E34B0431B6EF5188909139C6A3.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
-[2018.03.18-22.49.39:182][738]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
-[2018.03.18-22.49.48:929][431]BlueprintLog: New page: Compile AIBot
-[2018.03.18-22.49.49:760][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
-[2018.03.18-22.49.49:820][460]LogSavePackage: Save=48.19ms
-[2018.03.18-22.49.49:820][460]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot3E7E1F1249B60F42C6EA7EB7D33D0C18.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
-[2018.03.18-22.49.49:822][460]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
-[2018.03.18-22.53.16:035][992]BlueprintLog: New page: Compile AIBot
-[2018.03.18-22.53.16:495][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
-[2018.03.18-22.53.16:580][993]LogSavePackage: Save=74.13ms
-[2018.03.18-22.53.16:580][993]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotD1022FF1426F36CD18C48F87F6C5FE29.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
-[2018.03.18-22.53.16:582][993]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
-[2018.03.18-22.53.22:133][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
-[2018.03.18-22.53.22:161][418]LogSavePackage: Save=15.20ms
-[2018.03.18-22.53.22:161][418]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree075997A34472CB78BCA35893161B17C4.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
-[2018.03.18-22.53.22:163][418]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
-[2018.03.18-22.55.42:010][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.18-22.55.42:333][107]LogSavePackage: Save=272.44ms
-[2018.03.18-22.55.42:333][107]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/MainMenu7EEA73A048C7376E066F68A11E2F2184.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap'
-[2018.03.18-22.55.42:335][107]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap
-[2018.03.18-22.56.26:088][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotBlackBoard" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotBlackBoard.uasset" SILENT=true
-[2018.03.18-22.56.26:103][900]LogSavePackage: Save=2.22ms
-[2018.03.18-22.56.26:103][900]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotBlackBoardAA96EEE740261834722EADBE48FD6CBB.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotBlackBoard.uasset'
-[2018.03.18-22.56.26:105][900]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotBlackBoard.uasset
-[2018.03.18-22.56.39:955][124]BlueprintLog: New page: Compile AIBot
-[2018.03.18-22.56.40:590][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
-[2018.03.18-22.56.40:688][145]LogSavePackage: Save=71.53ms
-[2018.03.18-22.56.40:688][145]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot07A796B44602388C584681BF348AA644.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
-[2018.03.18-22.56.40:690][145]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
-[2018.03.18-22.57.26:764][ 35]LogEditorTransaction: Undo Create Pin Link
-[2018.03.18-22.57.27:451][ 88]LogEditorTransaction: Undo Delete current selection
-[2018.03.18-22.58.07:408][527]BlueprintLog: New page: Compile AIBot
-[2018.03.18-22.58.08:167][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
-[2018.03.18-22.58.08:268][560]LogSavePackage: Save=91.14ms
-[2018.03.18-22.58.08:268][560]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot1F640C434AAF6ED7207CB7B9535B36D6.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
-[2018.03.18-22.58.08:270][560]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
-[2018.03.18-22.59.19:704][930]BlueprintLog: New page: Compile AIBot
-[2018.03.18-22.59.20:424][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
-[2018.03.18-22.59.20:503][952]LogSavePackage: Save=66.51ms
-[2018.03.18-22.59.20:503][952]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot275A88EC4D8ED6334F94A7B769C9B998.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
-[2018.03.18-22.59.20:505][952]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
-[2018.03.18-22.59.21:965][ 41]LogSavePackage: Save=93.44ms
-[2018.03.18-22.59.21:966][ 41]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BTS_EnemyDetectioAF363A094E44CB174999DDB8549D76D0.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTS_EnemyDetectio.uasset'
-[2018.03.18-22.59.21:968][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTS_EnemyDetectio.uasset
+[2018.03.18-23.06.57:552][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.18-23.06.57:552][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.18-23.06.57:563][  0]LogInit: Computer: DESKTOP-SRIHI8I
+[2018.03.18-23.06.57:563][  0]LogInit: User: Aleix
+[2018.03.18-23.06.57:563][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.03.18-23.06.57:563][  0]LogInit: High frequency timer resolution =3.119140 MHz
+[2018.03.18-23.06.57:563][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.18-23.06.57:563][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-23.06.57:563][  0]LogMemory: Process Physical Memory: 276.70 MB used, 276.70 MB peak
+[2018.03.18-23.06.57:563][  0]LogMemory: Process Virtual Memory: 274.31 MB used, 274.31 MB peak
+[2018.03.18-23.06.57:563][  0]LogMemory: Physical Memory: 6444.39 MB used,  9892.24 MB free, 16336.63 MB total
+[2018.03.18-23.06.57:563][  0]LogMemory: Virtual Memory: 687.54 MB used,  9892.24 MB free, 134217728.00 MB total
+[2018.03.18-23.06.57:717][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.03.18-23.06.57:717][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.03.18-23.06.58:254][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.18-23.06.58:567][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.18-23.06.58:640][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.03.18-23.06.58:640][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.18-23.06.58:642][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.18-23.06.58:642][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.18-23.06.58:642][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.18-23.06.58:654][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.18-23.06.58:654][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.18-23.06.58:654][  0]LogWindows: EnumDisplayDevices:
+[2018.03.18-23.06.58:654][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.03.18-23.06.58:654][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.18-23.06.58:654][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.18-23.06.58:654][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.18-23.06.58:654][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.18-23.06.58:654][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.03.18-23.06.58:654][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.18-23.06.58:655][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.18-23.06.58:655][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.03.18-23.06.58:709][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.18-23.06.58:733][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.18-23.06.58:782][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Intermediate/Shaders/WorkingDirectory/15180/).
+[2018.03.18-23.06.58:783][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/F2EA30E74478991D54AC71A56A8CBB83/'.
+[2018.03.18-23.06.58:783][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.18-23.06.59:824][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.18-23.06.59:882][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.18-23.06.59:940][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.18-23.06.59:997][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.18-23.07.00:057][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.18-23.07.00:113][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.18-23.07.00:172][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.18-23.07.00:229][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.18-23.07.00:278][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.18-23.07.00:339][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.18-23.07.00:398][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.18-23.07.00:457][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.18-23.07.00:515][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.18-23.07.00:579][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.18-23.07.00:692][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.18-23.07.00:692][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.18-23.07.00:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.18-23.07.00:789][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.18-23.07.00:886][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.18-23.07.00:916][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.18-23.07.00:975][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.18-23.07.01:030][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.18-23.07.01:088][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.18-23.07.01:146][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.18-23.07.01:146][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.18-23.07.01:629][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.18-23.07.01:725][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.18-23.07.01:726][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.18-23.07.01:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.18-23.07.01:726][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.18-23.07.01:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.18-23.07.01:726][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.18-23.07.01:747][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.18-23.07.01:760][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.18-23.07.01:773][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.18-23.07.01:774][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.18-23.07.01:774][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.18-23.07.01:774][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.18-23.07.02:282][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.18-23.07.02:638][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.18-23.07.02:681][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.18-23.07.02:681][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.18-23.07.02:681][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.18-23.07.02:681][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.18-23.07.02:681][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.18-23.07.02:712][  0]LogNetVersion: MyProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490074681)
+[2018.03.18-23.07.02:889][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.03.18-23.07.03:390][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.033347 seconds
+[2018.03.18-23.07.03:399][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.18-23.07.03:399][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.18-23.07.03:399][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.18-23.07.03:449][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.18-23.07.06:494][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.18-23.07.06:537][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.18-23.07.07:286][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.18-23.07.07:710][  0]SourceControl: Source control is disabled
+[2018.03.18-23.07.07:710][  0]SourceControl: Source control is disabled
+[2018.03.18-23.07.07:779][  0]SourceControl: Source control is disabled
+[2018.03.18-23.07.07:830][  0]SourceControl: Source control is disabled
+[2018.03.18-23.07.08:757][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.18-23.07.09:070][  0]LogOcInput: OculusInput pre-init called
+[2018.03.18-23.07.09:403][  0]LogEngine: Initializing Engine...
+[2018.03.18-23.07.09:406][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.18-23.07.09:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.18-23.07.09:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.18-23.07.09:799][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.18-23.07.09:810][  0]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.07.09:837][  0]LogInit: FAudioDevice initialized.
+[2018.03.18-23.07.09:949][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.18-23.07.09:965][  0]LogInit: Texture streaming: Enabled
+[2018.03.18-23.07.10:077][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.18-23.07.10:099][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={69EB7BBF-4A00-7B18-3200-43A9BEE66B5C}
+[2018.03.18-23.07.10:261][  0]LogInit: Transaction tracking system initialized
+[2018.03.18-23.07.10:639][  0]BlueprintLog: New page: Editor Load
+[2018.03.18-23.07.11:629][  0]LocalizationService: Localization service is disabled
+[2018.03.18-23.07.12:589][  0]LogConsoleResponse: Display: 
+[2018.03.18-23.07.12:760][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/ as it will conflict with another watching ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/.
+[2018.03.18-23.07.12:772][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.18-23.07.12:772][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.18-23.07.12:772][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.18-23.07.14:018][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.02s
+[2018.03.18-23.07.14:073][  0]SourceControl: Source control is disabled
+[2018.03.18-23.07.14:073][  0]Cmd: MAP LOAD FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.18-23.07.14:074][  0]LightingResults: New page: Lighting Build
+[2018.03.18-23.07.14:117][  0]MapCheck: New page: Map Check
+[2018.03.18-23.07.14:117][  0]LightingResults: New page: Lighting Build
+[2018.03.18-23.07.14:188][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.18-23.07.14:189][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.18-23.07.14:212][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.18-23.07.14:260][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.843ms to complete.
+[2018.03.18-23.07.14:260][  0]LogFileHelpers: Loading map 'MainMenu' took 0.187
+[2018.03.18-23.07.14:427][  0]LogCollectionManager: Loaded 0 collections in 0.001422 seconds
+[2018.03.18-23.07.14:512][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Collections/' took 0.01s
+[2018.03.18-23.07.14:512][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Developers/Aleix/Collections/' took 0.01s
+[2018.03.18-23.07.14:512][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Collections/' took 0.01s
+[2018.03.18-23.07.14:512][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.18-23.07.14:526][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2363 classes and 519 folders.
+[2018.03.18-23.07.14:590][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.18-23.07.14:654][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.18-23.07.14:713][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.18-23.07.14:862][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.18-23.07.14:862][  0]LogLoad: (Engine Initialization) Total time: 20.07 seconds
+[2018.03.18-23.07.14:862][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.18-23.07.14:862][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.18-23.07.15:248][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.18-23.07.15:250][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.18-23.07.15:252][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.18-23.07.15:264][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.18-23.07.15:535][  1]LogRenderer: Reallocating scene render targets to support 944x712 Format 10 NumSamples 1 (Frame:1).
+[2018.03.18-23.07.15:536][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' took 0.32s
+[2018.03.18-23.07.15:877][  2]LogAssetRegistry: Asset discovery search completed in 13.0102 seconds
+[2018.03.18-23.07.15:879][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.18-23.07.15:879][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2018.03.18-23.07.16:221][  3]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.18-23.07.21:995][163]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.18-23.07.22:108][163]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.18-23.07.49:340][765]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.03.18-23.07.50:204][765]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.18-23.07.50:347][766]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.18-23.08.38:238][786]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.18-23.10.02:257][313]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.10.02:977][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.10.03:095][334]LogSavePackage: Save=105.83ms
+[2018.03.18-23.10.03:095][334]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot8A9F1BCE428BFB765E8AC89B64FF37A9.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.10.03:097][334]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.10.39:601][129]LogEditorTransaction: Undo Delete current selection
+[2018.03.18-23.11.36:307][599]BlueprintLog: New page: Compile Bot
+[2018.03.18-23.11.36:900][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Bot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset" SILENT=true
+[2018.03.18-23.11.36:994][601]LogSavePackage: Save=80.46ms
+[2018.03.18-23.11.36:994][601]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Bot2F468AEC4DB4E2D516293B88B7F86888.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset'
+[2018.03.18-23.11.36:996][601]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset
+[2018.03.18-23.11.59:781][490]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.11.59:837][490]Cmd: MAP LOAD FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.18-23.11.59:837][490]LightingResults: New page: Lighting Build
+[2018.03.18-23.11.59:838][490]LoadErrors: New page: Loading map: IATest.umap
+[2018.03.18-23.11.59:838][490]MapCheck: New page: Map Check
+[2018.03.18-23.11.59:838][490]LightingResults: New page: Lighting Build
+[2018.03.18-23.11.59:964][490]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.18-23.12.00:038][490]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.18-23.12.00:105][490]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.83ms to complete.
+[2018.03.18-23.12.00:105][490]LogFileHelpers: Loading map 'IATest' took 0.270
+[2018.03.18-23.12.03:761][876]LogSavePackage: Save=89.41ms
+[2018.03.18-23.12.03:761][876]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/IATest4AB9F43A4E190748ED4755ADB3B09292.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest.umap'
+[2018.03.18-23.12.03:762][876]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest.umap
+[2018.03.18-23.12.03:815][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevels/IATest_BuiltData" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest_BuiltData.uasset" SILENT=true
+[2018.03.18-23.12.03:925][876]LogSavePackage: Save=83.01ms
+[2018.03.18-23.12.03:925][876]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/IATest_BuiltDataB020561B4924273D957D6A8A5E68C2D6.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest_BuiltData.uasset'
+[2018.03.18-23.12.03:926][876]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest_BuiltData.uasset
+[2018.03.18-23.12.04:318][920]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.12.04:397][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.12.04:397][920]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:12:04 AM)
+[2018.03.18-23.12.04:398][920]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.12.04:407][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009192s)
+[2018.03.18-23.12.04:408][920]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.12.04:408][920]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2018.03.18-23.12.04:408][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.010410s)
+[2018.03.18-23.12.04:443][920]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.12.04:464][920]LogInit: FAudioDevice initialized.
+[2018.03.18-23.12.04:513][920]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.12.04:517][920]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.12.04
+[2018.03.18-23.12.04:518][920]LogWorld: Bringing up level for play took: 0.003066
+[2018.03.18-23.12.04:558][920]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.18-23.12.04:560][920]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.324
+[2018.03.18-23.12.39:235][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.12.39:258][  5]LogSavePackage: Save=12.00ms
+[2018.03.18-23.12.39:258][  5]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTreeF182BA964A0DA3C17FD7C583B7273594.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.12.39:260][  5]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.13.37:472][521]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.13.38:155][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.13.38:279][540]LogSavePackage: Save=111.84ms
+[2018.03.18-23.13.38:279][540]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotB60C6D9545A476BEE6981A9C9B9940A6.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.13.38:281][540]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.13.42:102][856]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.13.42:142][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.13.42:143][856]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:13:42 AM)
+[2018.03.18-23.13.42:143][856]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.13.42:150][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007548s)
+[2018.03.18-23.13.42:151][856]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.13.42:151][856]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2018.03.18-23.13.42:152][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008724s)
+[2018.03.18-23.13.42:182][856]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.13.42:201][856]LogInit: FAudioDevice initialized.
+[2018.03.18-23.13.42:236][856]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.13.42:238][856]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.13.42
+[2018.03.18-23.13.42:239][856]LogWorld: Bringing up level for play took: 0.002491
+[2018.03.18-23.13.42:240][856]LogScript: Warning: Accessed None trying to read property Blackboard
+	AIBot_C /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest:PersistentLevel.AIBot_C_0
+	Function /Game/BluePrints/IA/AIBot.AIBot_C:Initialize:00C7
+[2018.03.18-23.13.42:240][856]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Blackboard from function: 'Initialize' from node: Set Value as Float in graph: Initialize in object: AIBot with description: Accessed None trying to read property Blackboard
+[2018.03.18-23.13.42:241][856]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.006
+[2018.03.18-23.13.54:538][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Bot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset" SILENT=true
+[2018.03.18-23.13.54:642][793]LogSavePackage: Save=92.82ms
+[2018.03.18-23.13.54:642][793]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Bot2BDE7B684889BF3E28DB5BA4A094301F.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset'
+[2018.03.18-23.13.54:644][793]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset
+[2018.03.18-23.14.45:916][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.14.45:940][794]LogSavePackage: Save=12.53ms
+[2018.03.18-23.14.45:940][794]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTreeA5666AB643ED5E2F1FCC23BE52873639.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.14.45:942][794]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.15.07:582][369]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.15.08:069][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.15.08:162][374]LogSavePackage: Save=81.67ms
+[2018.03.18-23.15.08:162][374]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotE861E3B645F2548D197755BD73C60728.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.15.08:183][374]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.15.09:989][538]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.15.10:025][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.15.10:025][538]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:15:10 AM)
+[2018.03.18-23.15.10:025][538]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.15.10:033][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007964s)
+[2018.03.18-23.15.10:034][538]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.15.10:034][538]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.03.18-23.15.10:034][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.009109s)
+[2018.03.18-23.15.10:067][538]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.15.10:084][538]LogInit: FAudioDevice initialized.
+[2018.03.18-23.15.10:121][538]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.15.10:124][538]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.15.10
+[2018.03.18-23.15.10:124][538]LogWorld: Bringing up level for play took: 0.003001
+[2018.03.18-23.15.10:126][538]LogScript: Warning: Accessed None trying to read property Blackboard
+	AIBot_C /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest:PersistentLevel.AIBot_C_0
+	Function /Game/BluePrints/IA/AIBot.AIBot_C:Initialize:00C7
+[2018.03.18-23.15.10:126][538]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Blackboard from function: 'Initialize' from node: Set Value as Float in graph: Initialize in object: AIBot with description: Accessed None trying to read property Blackboard
+[2018.03.18-23.15.10:127][538]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest -0.109
+[2018.03.18-23.16.10:264][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.16.10:371][325]LogSavePackage: Save=94.66ms
+[2018.03.18-23.16.10:371][325]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot1B710D494CC52FD948F65F8431D76A69.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.16.10:373][325]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.16.36:886][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Bot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset" SILENT=true
+[2018.03.18-23.16.36:988][213]LogSavePackage: Save=66.62ms
+[2018.03.18-23.16.36:988][213]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Bot94DB06BE466FECDF93B44E8B4DB8351F.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset'
+[2018.03.18-23.16.36:990][213]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset
+[2018.03.18-23.17.00:266][840]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.17.00:896][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.17.01:024][855]LogSavePackage: Save=116.78ms
+[2018.03.18-23.17.01:024][855]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot5B2DC2564ABFA4371D7B68A3B7782D00.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.17.01:029][855]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.17.02:925][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.17.02:966][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.17.02:966][ 22]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:17:02 AM)
+[2018.03.18-23.17.02:966][ 22]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.17.02:974][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007815s)
+[2018.03.18-23.17.02:975][ 22]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.17.02:975][ 22]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2018.03.18-23.17.02:975][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008896s)
+[2018.03.18-23.17.03:007][ 22]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.17.03:025][ 22]LogInit: FAudioDevice initialized.
+[2018.03.18-23.17.03:062][ 22]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.17.03:065][ 22]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.17.03
+[2018.03.18-23.17.03:066][ 22]LogWorld: Bringing up level for play took: 0.002938
+[2018.03.18-23.17.03:078][ 22]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AIBot_C /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest:PersistentLevel.AIBot_C_0
+	Function /Game/BluePrints/IA/AIBot.AIBot_C:Initialize:00F2
+[2018.03.18-23.17.03:079][ 22]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'Initialize' from node: Set Value as Float in graph: Initialize in object: AIBot with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2018.03.18-23.17.03:080][ 22]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.844
+[2018.03.18-23.17.41:483][112]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.17.41:537][112]LogBlueprint: Error: [Compiler AIBot] This blueprint (self) is not a BlackboardComponent, therefore ' Target ' must have a connection.
+[2018.03.18-23.17.41:859][112]LogBlueprint: Warning: [Compiler AIBot] [0647.07] Compile of AIBot failed. 1 Fatal Issue(s) 0 Warning(s) [in 375 ms] (/Game/BluePrints/IA/AIBot.AIBot)
+[2018.03.18-23.17.56:278][440]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.17.56:329][440]LogBlueprint: Error: [Compiler AIBot] This blueprint (self) is not a BlackboardComponent, therefore ' Target ' must have a connection.
+[2018.03.18-23.17.56:620][440]LogBlueprint: Warning: [Compiler AIBot] [0661.83] Compile of AIBot failed. 1 Fatal Issue(s) 0 Warning(s) [in 340 ms] (/Game/BluePrints/IA/AIBot.AIBot)
+[2018.03.18-23.18.53:247][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Bot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset" SILENT=true
+[2018.03.18-23.18.53:342][492]LogSavePackage: Save=83.99ms
+[2018.03.18-23.18.53:342][492]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Bot599208424E27A6E8C8CAE1BBB2E79F02.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset'
+[2018.03.18-23.18.53:344][492]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Assets/3DModels/Bot.uasset
+[2018.03.18-23.19.04:166][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.19.04:255][264]LogSavePackage: Save=77.08ms
+[2018.03.18-23.19.04:255][264]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot08CAAAAD4051D998662E9EB0844BB9F7.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.19.04:259][264]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.19.10:305][681]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.19.11:003][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.19.11:100][704]LogSavePackage: Save=86.19ms
+[2018.03.18-23.19.11:100][704]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot7939929C4B0FF3E5B108C7BE6AC89DF8.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.19.11:102][704]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.19.22:958][594]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.19.24:919][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.19.25:011][695]LogSavePackage: Save=79.58ms
+[2018.03.18-23.19.25:011][695]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot9AC0ED75441A7C199587B3A8BDCC856C.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.19.25:013][695]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.19.28:784][  2]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.19.28:819][  2]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.18-23.19.28:872][  2]LogPlayLevel: [PlayLevel] Compiling Bot before play...
+[2018.03.18-23.19.29:466][  2]LogPlayLevel: PlayLevel: Blueprint regeneration took 647 ms (1 blueprints)
+[2018.03.18-23.19.29:466][  2]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:19:29 AM)
+[2018.03.18-23.19.29:466][  2]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.19.29:474][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007657s)
+[2018.03.18-23.19.29:475][  2]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.19.29:475][  2]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2018.03.18-23.19.29:475][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008958s)
+[2018.03.18-23.19.29:510][  2]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.19.29:529][  2]LogInit: FAudioDevice initialized.
+[2018.03.18-23.19.29:565][  2]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.19.29:567][  2]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.19.29
+[2018.03.18-23.19.29:568][  2]LogWorld: Bringing up level for play took: 0.002616
+[2018.03.18-23.19.29:571][  2]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 1.336
+[2018.03.18-23.20.08:248][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.20.08:272][215]LogSavePackage: Save=11.92ms
+[2018.03.18-23.20.08:272][215]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree7C9B59994E2908EDA421CABF28DA2EED.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.20.08:274][215]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.21.06:282][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.21.06:390][914]LogSavePackage: Save=97.24ms
+[2018.03.18-23.21.06:390][914]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotFDE79E0643D6ADE9D7C3DCA9C3EE5853.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.21.06:392][914]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.21.24:278][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.21.24:369][224]LogSavePackage: Save=78.72ms
+[2018.03.18-23.21.24:369][224]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotBD7DE84448E19A86FF278DABEA73CAB6.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.21.24:371][224]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.21.27:095][432]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.21.27:811][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.21.27:932][457]LogSavePackage: Save=111.09ms
+[2018.03.18-23.21.27:932][457]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot279D41F64F45D8F7DC4550BDEDD6885A.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.21.27:935][457]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.21.30:567][694]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.21.30:608][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.21.30:608][694]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:21:30 AM)
+[2018.03.18-23.21.30:608][694]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.21.30:616][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007769s)
+[2018.03.18-23.21.30:617][694]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.21.30:617][694]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2018.03.18-23.21.30:617][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008981s)
+[2018.03.18-23.21.30:653][694]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.21.30:674][694]LogInit: FAudioDevice initialized.
+[2018.03.18-23.21.30:712][694]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.21.30:714][694]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.21.30
+[2018.03.18-23.21.30:715][694]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AIBot_C /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest:PersistentLevel.AIBot_C_0
+	Function /Game/BluePrints/IA/AIBot.AIBot_C:Initialize:00F2
+[2018.03.18-23.21.30:715][694]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'Initialize' from node: Set Value as Float in graph: Initialize in object: AIBot with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2018.03.18-23.21.30:715][694]LogWorld: Bringing up level for play took: 0.002869
+[2018.03.18-23.21.30:719][694]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.483
+[2018.03.18-23.23.06:894][439]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.23.07:466][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.23.07:560][447]LogSavePackage: Save=83.60ms
+[2018.03.18-23.23.07:560][447]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot431DBDE64BA170EE54703E9CA83598A9.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.23.07:562][447]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.23.38:265][805]LogEditorTransaction: Undo Move Node
+[2018.03.18-23.23.38:669][824]LogEditorTransaction: Undo Delete current selection
+[2018.03.18-23.23.39:967][917]LogEditorTransaction: Undo Delete current selection
+[2018.03.18-23.23.57:457][178]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.23.58:073][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.23.58:166][192]LogSavePackage: Save=82.58ms
+[2018.03.18-23.23.58:167][192]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot27489C564E7E37EE01946983679C9330.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.23.58:169][192]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.24.02:831][574]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.24.02:873][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.24.02:873][574]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:24:02 AM)
+[2018.03.18-23.24.02:873][574]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.24.02:881][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007598s)
+[2018.03.18-23.24.02:882][574]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.24.02:882][574]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2018.03.18-23.24.02:882][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008734s)
+[2018.03.18-23.24.02:920][574]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.24.02:940][574]LogInit: FAudioDevice initialized.
+[2018.03.18-23.24.02:974][574]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.24.02:976][574]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.24.02
+[2018.03.18-23.24.02:980][574]LogWorld: Bringing up level for play took: 0.005070
+[2018.03.18-23.24.02:981][574]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.745
+[2018.03.18-23.24.06:320][948]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.24.06:354][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.24.06:355][948]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:24:06 AM)
+[2018.03.18-23.24.06:356][948]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.24.06:372][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016232s)
+[2018.03.18-23.24.06:373][948]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.24.06:373][948]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2018.03.18-23.24.06:373][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.017415s)
+[2018.03.18-23.24.06:418][948]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.24.06:440][948]LogInit: FAudioDevice initialized.
+[2018.03.18-23.24.06:474][948]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.24.06:477][948]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.24.06
+[2018.03.18-23.24.06:480][948]LogWorld: Bringing up level for play took: 0.005011
+[2018.03.18-23.24.06:481][948]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.246
+[2018.03.18-23.24.30:844][974]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.24.30:881][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.24.30:881][974]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:24:30 AM)
+[2018.03.18-23.24.30:881][974]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.24.30:889][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007793s)
+[2018.03.18-23.24.30:890][974]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.24.30:890][974]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2018.03.18-23.24.30:890][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.009117s)
+[2018.03.18-23.24.30:934][974]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.24.30:951][974]LogInit: FAudioDevice initialized.
+[2018.03.18-23.24.30:984][974]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.24.30:987][974]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.24.30
+[2018.03.18-23.24.30:991][974]LogWorld: Bringing up level for play took: 0.005612
+[2018.03.18-23.24.30:992][974]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.757
+[2018.03.18-23.24.33:142][210]LogEditorViewport: Clicking on Actor (LMB): Bot_C (Bot)
+[2018.03.18-23.24.44:186][ 36]LogSavePackage: Save=88.37ms
+[2018.03.18-23.24.44:186][ 36]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/IATest3236E63D4C9568E30C42CCACD6A1B11A.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest.umap'
+[2018.03.18-23.24.44:188][ 36]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest.umap
+[2018.03.18-23.24.44:233][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevels/IATest_BuiltData" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest_BuiltData.uasset" SILENT=true
+[2018.03.18-23.24.44:322][ 36]LogSavePackage: Save=76.30ms
+[2018.03.18-23.24.44:323][ 36]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/IATest_BuiltData3A439D5147EFE82E1B35C2AF942A0878.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest_BuiltData.uasset'
+[2018.03.18-23.24.44:324][ 36]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Levels/TestLevels/IATest_BuiltData.uasset
+[2018.03.18-23.25.04:172][287]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.25.04:210][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.25.04:210][287]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:25:04 AM)
+[2018.03.18-23.25.04:211][287]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.25.04:218][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007507s)
+[2018.03.18-23.25.04:219][287]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.25.04:219][287]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2018.03.18-23.25.04:219][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008668s)
+[2018.03.18-23.25.04:265][287]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.25.04:282][287]LogInit: FAudioDevice initialized.
+[2018.03.18-23.25.04:316][287]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.25.04:319][287]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.25.04
+[2018.03.18-23.25.04:322][287]LogWorld: Bringing up level for play took: 0.005121
+[2018.03.18-23.25.04:324][287]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.088
+[2018.03.18-23.25.43:385][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.25.43:409][572]LogSavePackage: Save=11.29ms
+[2018.03.18-23.25.43:409][572]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTreeEB2191924A284C7AE4A1A19EE092F541.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.25.43:411][572]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.25.57:413][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.25.57:437][727]LogSavePackage: Save=12.18ms
+[2018.03.18-23.25.57:437][727]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree0FBABCFB41E13FF186A654A7BA3A5AD2.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.25.57:439][727]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.26.00:231][979]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.26.00:272][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.26.00:272][979]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:26:00 AM)
+[2018.03.18-23.26.00:272][979]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.26.00:280][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007434s)
+[2018.03.18-23.26.00:280][979]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.26.00:280][979]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.03.18-23.26.00:281][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008571s)
+[2018.03.18-23.26.00:317][979]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.26.00:339][979]LogInit: FAudioDevice initialized.
+[2018.03.18-23.26.00:372][979]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.26.00:375][979]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.26.00
+[2018.03.18-23.26.00:378][979]LogWorld: Bringing up level for play took: 0.005222
+[2018.03.18-23.26.00:379][979]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.144
+[2018.03.18-23.26.06:506][669]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.26.06:545][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.26.06:545][669]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:26:06 AM)
+[2018.03.18-23.26.06:545][669]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.26.06:553][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007419s)
+[2018.03.18-23.26.06:553][669]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.26.06:554][669]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2018.03.18-23.26.06:554][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008520s)
+[2018.03.18-23.26.06:587][669]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.26.06:605][669]LogInit: FAudioDevice initialized.
+[2018.03.18-23.26.06:639][669]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.26.06:642][669]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.26.06
+[2018.03.18-23.26.06:645][669]LogWorld: Bringing up level for play took: 0.005385
+[2018.03.18-23.26.06:646][669]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.41
+[2018.03.18-23.27.13:897][207]BlueprintLog: New page: Compile BTD_UpdateRoute
+[2018.03.18-23.27.15:815][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.27.15:837][344]LogSavePackage: Save=11.51ms
+[2018.03.18-23.27.15:837][344]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree54332071465310966FED239C004D2779.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.27.15:839][344]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.27.18:271][582]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.27.18:309][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.27.18:309][582]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:27:18 AM)
+[2018.03.18-23.27.18:309][582]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.27.18:317][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007629s)
+[2018.03.18-23.27.18:318][582]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.27.18:318][582]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2018.03.18-23.27.18:318][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008877s)
+[2018.03.18-23.27.18:355][582]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.27.18:374][582]LogInit: FAudioDevice initialized.
+[2018.03.18-23.27.18:408][582]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.27.18:411][582]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.27.18
+[2018.03.18-23.27.18:414][582]LogWorld: Bringing up level for play took: 0.005139
+[2018.03.18-23.27.18:416][582]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.181
+[2018.03.18-23.27.39:330][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/Tasks/BTD_UpdateRoute" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset" SILENT=true
+[2018.03.18-23.27.39:385][306]LogSavePackage: Save=41.97ms
+[2018.03.18-23.27.39:385][306]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BTD_UpdateRoute89A80AAB4330C50ED62CBA9BE46FB816.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset'
+[2018.03.18-23.27.39:392][306]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset
+[2018.03.18-23.27.53:603][400]BlueprintLog: New page: Compile BTD_UpdateRoute
+[2018.03.18-23.27.55:339][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/Tasks/BTD_UpdateRoute" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset" SILENT=true
+[2018.03.18-23.27.55:371][519]LogSavePackage: Save=20.61ms
+[2018.03.18-23.27.55:371][519]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BTD_UpdateRouteBBDE5A554C02CCA76B00989FABDFC99D.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset'
+[2018.03.18-23.27.55:373][519]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset
+[2018.03.18-23.27.57:772][678]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.27.57:810][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.27.57:810][678]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:27:57 AM)
+[2018.03.18-23.27.57:810][678]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.27.57:818][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007273s)
+[2018.03.18-23.27.57:818][678]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.27.57:818][678]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2018.03.18-23.27.57:819][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008423s)
+[2018.03.18-23.27.57:858][678]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.27.57:877][678]LogInit: FAudioDevice initialized.
+[2018.03.18-23.27.57:910][678]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.27.57:912][678]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.27.57
+[2018.03.18-23.27.57:916][678]LogWorld: Bringing up level for play took: 0.005227
+[2018.03.18-23.27.57:917][678]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest -0.318
+[2018.03.18-23.28.22:764][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/Tasks/BTT_NextRoute" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTT_NextRoute.uasset" SILENT=true
+[2018.03.18-23.28.22:791][745]LogSavePackage: Save=14.18ms
+[2018.03.18-23.28.22:791][745]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BTT_NextRoute112774F24618AA48ABDE49AE0116F1B8.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTT_NextRoute.uasset'
+[2018.03.18-23.28.22:819][745]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTT_NextRoute.uasset
+[2018.03.18-23.28.46:334][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.28.46:357][756]LogSavePackage: Save=11.41ms
+[2018.03.18-23.28.46:357][756]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree4902590847B9DE39D29DC991A790DFFD.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.28.46:359][756]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.28.56:131][151]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.28.56:173][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.28.56:173][151]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:28:56 AM)
+[2018.03.18-23.28.56:173][151]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.28.56:181][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007715s)
+[2018.03.18-23.28.56:182][151]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.28.56:182][151]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2018.03.18-23.28.56:182][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008841s)
+[2018.03.18-23.28.56:223][151]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.28.56:241][151]LogInit: FAudioDevice initialized.
+[2018.03.18-23.28.56:275][151]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.28.56:278][151]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.28.56
+[2018.03.18-23.28.56:281][151]LogWorld: Bringing up level for play took: 0.005553
+[2018.03.18-23.28.56:282][151]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.047
+[2018.03.18-23.29.11:365][889]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.29.11:414][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.29.11:414][889]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:29:11 AM)
+[2018.03.18-23.29.11:414][889]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.29.11:423][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008252s)
+[2018.03.18-23.29.11:424][889]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.29.11:424][889]LogPlayLevel: PIE: World Init took: (0.001567s)
+[2018.03.18-23.29.11:425][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.010334s)
+[2018.03.18-23.29.11:474][889]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.29.11:494][889]LogInit: FAudioDevice initialized.
+[2018.03.18-23.29.11:529][889]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.29.11:532][889]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.29.11
+[2018.03.18-23.29.11:535][889]LogWorld: Bringing up level for play took: 0.004960
+[2018.03.18-23.29.11:536][889]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest -0.699
+[2018.03.18-23.29.28:454][325]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.29.28:494][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.29.28:494][325]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:29:28 AM)
+[2018.03.18-23.29.28:494][325]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.29.28:502][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007687s)
+[2018.03.18-23.29.28:502][325]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.29.28:503][325]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2018.03.18-23.29.28:503][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008815s)
+[2018.03.18-23.29.28:545][325]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.29.28:568][325]LogInit: FAudioDevice initialized.
+[2018.03.18-23.29.28:597][325]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.29.28:600][325]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.29.28
+[2018.03.18-23.29.28:603][325]LogWorld: Bringing up level for play took: 0.004803
+[2018.03.18-23.29.28:604][325]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.369
+[2018.03.18-23.29.57:611][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.29.57:635][682]LogSavePackage: Save=11.96ms
+[2018.03.18-23.29.57:635][682]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree0383A1544466715DFE9F09B4015C7664.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.29.57:637][682]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.29.58:588][756]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.29.58:628][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.29.58:628][756]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:29:58 AM)
+[2018.03.18-23.29.58:628][756]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.29.58:636][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007387s)
+[2018.03.18-23.29.58:636][756]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.29.58:637][756]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2018.03.18-23.29.58:637][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008502s)
+[2018.03.18-23.29.58:672][756]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.29.58:689][756]LogInit: FAudioDevice initialized.
+[2018.03.18-23.29.58:723][756]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.29.58:727][756]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.29.58
+[2018.03.18-23.29.58:731][756]LogWorld: Bringing up level for play took: 0.006873
+[2018.03.18-23.29.58:732][756]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.497
+[2018.03.18-23.30.41:939][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.30.41:966][388]LogSavePackage: Save=15.54ms
+[2018.03.18-23.30.41:966][388]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree114B8C8E4C45E8776B79FE800AA1574F.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.30.41:968][388]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.30.46:043][816]LogEditorViewport: Clicking Background
+[2018.03.18-23.30.51:008][369]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.30.51:047][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.30.51:047][369]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:30:51 AM)
+[2018.03.18-23.30.51:047][369]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.30.51:055][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007313s)
+[2018.03.18-23.30.51:055][369]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.30.51:056][369]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2018.03.18-23.30.51:056][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008403s)
+[2018.03.18-23.30.51:101][369]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.30.51:118][369]LogInit: FAudioDevice initialized.
+[2018.03.18-23.30.51:153][369]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.30.51:155][369]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.30.51
+[2018.03.18-23.30.51:158][369]LogWorld: Bringing up level for play took: 0.005418
+[2018.03.18-23.30.51:160][369]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.924
+[2018.03.18-23.30.54:535][763]Set new viewmode: Wireframe
+[2018.03.18-23.30.55:371][853]Set new viewmode: Wireframe
+[2018.03.18-23.31.18:338][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.31.18:362][691]LogSavePackage: Save=12.36ms
+[2018.03.18-23.31.18:362][691]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree10E565E54636890D1CBB298F0F242B06.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.31.18:364][691]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.32.22:692][239]BlueprintLog: New page: Compile BTD_UpdateRoute
+[2018.03.18-23.32.23:783][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/Tasks/BTD_UpdateRoute" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset" SILENT=true
+[2018.03.18-23.32.23:825][311]LogSavePackage: Save=30.16ms
+[2018.03.18-23.32.23:825][311]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BTD_UpdateRouteEAE965B14DF87512E00360BE4814246B.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset'
+[2018.03.18-23.32.23:827][311]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/Tasks/BTD_UpdateRoute.uasset
+[2018.03.18-23.32.25:765][494]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.32.25:808][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.32.25:808][494]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:32:25 AM)
+[2018.03.18-23.32.25:808][494]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.32.25:816][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007585s)
+[2018.03.18-23.32.25:817][494]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.32.25:817][494]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.03.18-23.32.25:817][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008615s)
+[2018.03.18-23.32.25:862][494]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.32.25:880][494]LogInit: FAudioDevice initialized.
+[2018.03.18-23.32.25:911][494]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.32.25:914][494]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.32.25
+[2018.03.18-23.32.25:917][494]LogWorld: Bringing up level for play took: 0.005253
+[2018.03.18-23.32.25:918][494]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest -0.317
+[2018.03.18-23.32.57:671][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/BotTree" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset" SILENT=true
+[2018.03.18-23.32.57:695][133]LogSavePackage: Save=13.42ms
+[2018.03.18-23.32.57:695][133]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/BotTree9F069C2B4301EBF0A3589283DBBF9AA1.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset'
+[2018.03.18-23.32.57:697][133]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/BotTree.uasset
+[2018.03.18-23.33.47:021][520]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.33.47:568][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.33.47:670][524]LogSavePackage: Save=83.82ms
+[2018.03.18-23.33.47:670][524]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotD214BD9F46D0FC62CF3D408D3C62FD03.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.33.47:672][524]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.33.51:523][828]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.33.51:563][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.33.51:563][828]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:33:51 AM)
+[2018.03.18-23.33.51:564][828]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.33.51:571][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007504s)
+[2018.03.18-23.33.51:572][828]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.33.51:572][828]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2018.03.18-23.33.51:572][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008708s)
+[2018.03.18-23.33.51:614][828]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.33.51:635][828]LogInit: FAudioDevice initialized.
+[2018.03.18-23.33.51:667][828]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.33.51:670][828]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.33.51
+[2018.03.18-23.33.51:673][828]LogWorld: Bringing up level for play took: 0.004993
+[2018.03.18-23.33.51:674][828]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest -0.561
+[2018.03.18-23.34.33:349][386]LogEditorViewport: Clicking on Actor (LMB): WayPoint_C (WayPoint)
+[2018.03.18-23.34.41:119][ 55]LogEditorViewport: Clicking Background
+[2018.03.18-23.35.01:547][556]LogEditorTransaction: Undo Move Node
+[2018.03.18-23.35.01:779][567]LogEditorTransaction: Undo Delete current selection
+[2018.03.18-23.35.02:292][596]LogEditorTransaction: Undo Create Pin Link
+[2018.03.18-23.35.02:762][626]LogEditorTransaction: Undo Delete current selection
+[2018.03.18-23.35.14:589][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.35.14:700][542]LogSavePackage: Save=100.02ms
+[2018.03.18-23.35.14:701][542]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotE7577D5C45A6CF565F2A4EAF9594FF9D.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.35.14:704][542]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.35.28:375][554]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.35.29:385][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.35.29:501][590]LogSavePackage: Save=105.55ms
+[2018.03.18-23.35.29:502][590]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotE0FCE9194EB50BC324EB0EAB6700FBEC.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.35.29:506][590]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.35.41:783][502]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.35.42:287][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.35.42:386][507]LogSavePackage: Save=87.38ms
+[2018.03.18-23.35.42:386][507]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotF26E822B485C92A41BCAC691AA170E15.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.35.42:388][507]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.35.53:873][283]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.35.54:356][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.35.54:455][288]LogSavePackage: Save=86.62ms
+[2018.03.18-23.35.54:455][288]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBot85104FBB4AE12C3017723990A2FAB4F2.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.35.54:457][288]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.35.58:439][695]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.35.58:482][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.35.58:482][695]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:35:58 AM)
+[2018.03.18-23.35.58:483][695]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.35.58:491][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007881s)
+[2018.03.18-23.35.58:491][695]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.35.58:492][695]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2018.03.18-23.35.58:492][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.009179s)
+[2018.03.18-23.35.58:542][695]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.35.58:560][695]LogInit: FAudioDevice initialized.
+[2018.03.18-23.35.58:593][695]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.35.58:596][695]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.35.58
+[2018.03.18-23.35.58:599][695]LogWorld: Bringing up level for play took: 0.005293
+[2018.03.18-23.35.58:600][695]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 0.364
+[2018.03.18-23.36.43:172][967]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.36.43:637][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.36.43:738][968]LogSavePackage: Save=88.92ms
+[2018.03.18-23.36.43:738][968]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotCA8500DD4619D42E31563DB1A3C2B2CB.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.36.43:740][968]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.36.45:602][132]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.36.45:646][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.36.45:646][132]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:36:45 AM)
+[2018.03.18-23.36.45:646][132]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.36.45:654][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007248s)
+[2018.03.18-23.36.45:654][132]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.36.45:654][132]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2018.03.18-23.36.45:655][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008337s)
+[2018.03.18-23.36.45:691][132]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.36.45:708][132]LogInit: FAudioDevice initialized.
+[2018.03.18-23.36.45:742][132]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.36.45:744][132]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.36.45
+[2018.03.18-23.36.45:747][132]LogWorld: Bringing up level for play took: 0.004804
+[2018.03.18-23.36.45:749][132]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest -0.487
+[2018.03.18-23.38.44:430][196]BlueprintLog: New page: Compile AIBot
+[2018.03.18-23.38.44:961][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.38.45:070][203]LogSavePackage: Save=97.27ms
+[2018.03.18-23.38.45:070][203]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotFCDE3C4B495977F956718FA3EE434D86.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.38.45:073][203]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.38.47:188][384]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-23.38.47:228][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-23.38.47:228][384]PIE: New page: PIE session: IATest (Mar 19, 2018, 1:38:47 AM)
+[2018.03.18-23.38.47:229][384]LogPlayLevel: Creating play world package: /Game/Levels/TestLevels/UEDPIE_0_IATest
+[2018.03.18-23.38.47:236][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007612s)
+[2018.03.18-23.38.47:237][384]LogAIModule: Creating AISystem for world IATest
+[2018.03.18-23.38.47:237][384]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.03.18-23.38.47:237][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevels/IATest.IATest to /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest (0.008704s)
+[2018.03.18-23.38.47:274][384]LogInit: XAudio2 using 'Altavoces (SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-23.38.47:293][384]LogInit: FAudioDevice initialized.
+[2018.03.18-23.38.47:327][384]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.18-23.38.47:330][384]LogWorld: Bringing World /Game/Levels/TestLevels/UEDPIE_0_IATest.IATest up for play (max tick rate 0) at 2018.03.19-00.38.47
+[2018.03.18-23.38.47:333][384]LogWorld: Bringing up level for play took: 0.005399
+[2018.03.18-23.38.47:334][384]PIE: Play in editor start time for /Game/Levels/TestLevels/UEDPIE_0_IATest 1.099
+[2018.03.18-23.39.12:476][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/IA/AIBot" FILE="../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset" SILENT=true
+[2018.03.18-23.39.12:570][297]LogSavePackage: Save=81.75ms
+[2018.03.18-23.39.12:570][297]LogSavePackage: Moving '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/AIBotDFDCE1034A7C205E3E28AFAE298A6440.tmp' to '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset'
+[2018.03.18-23.39.12:572][297]LogSavePackage: Display: Finished SavePackage ../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/BluePrints/IA/AIBot.uasset
+[2018.03.18-23.39.14:368][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.18-23.39.15:369][420]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.18-23.39.15:705][421]Cmd: QUIT_EDITOR
+[2018.03.18-23.39.16:109][421]LogExit: Preparing to exit.
+[2018.03.18-23.39.17:192][421]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' was aborted.
+[2018.03.18-23.39.17:291][421]LogExit: Editor shut down
+[2018.03.18-23.39.17:296][421]LogExit: Transaction tracking system shut down
+[2018.03.18-23.39.17:603][421]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.18-23.39.17:603][421]LogDirectoryWatcher: A directory notification for '../../../../../Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/' was aborted.
+[2018.03.18-23.39.17:603][421]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.18-23.39.17:603][421]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.18-23.39.17:603][421]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.18-23.39.17:603][421]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.18-23.39.17:603][421]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.18-23.39.18:049][421]LogExit: Object subsystem successfully closed.
+[2018.03.18-23.39.18:132][421]LogD3D11RHI: Shutdown
+[2018.03.18-23.39.18:132][421]LogD3D11RHI: CleanupD3DDevice
+[2018.03.18-23.39.18:175][421]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.18-23.39.18:457][421]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.18-23.39.18:457][421]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2018.03.18-23.39.18:457][421]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.03.18-23.39.18:457][421]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.18-23.39.18:457][421]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.18-23.39.18:457][421]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.18-23.39.18:459][421]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.18-23.39.18:459][421]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.18-23.39.18:459][421]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.18-23.39.18:459][421]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Collections/' was aborted.
+[2018.03.18-23.39.18:460][421]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Content/Developers/Aleix/Collections/' was aborted.
+[2018.03.18-23.39.18:460][421]LogDirectoryWatcher: A directory notification for 'D:/Github/Motors-Jocs-II/Motors-Jocs-II/MyProject/Saved/Collections/' was aborted.
+[2018.03.18-23.39.18:460][421]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.18-23.39.18:472][421]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.18-23.39.18:472][421]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.18-23.39.18:482][421]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.18-23.39.18:482][421]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.18-23.39.18:482][421]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.18-23.39.18:482][421]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.18-23.39.18:483][421]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.18-23.39.18:494][421]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.18-23.39.18:495][421]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.18-23.39.18:507][421]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.18-23.39.18:508][421]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.18-23.39.18:508][421]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.18-23.39.18:508][421]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.18-23.39.18:508][421]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.18-23.39.18:508][421]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.18-23.39.18:508][421]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.18-23.39.18:508][421]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.18-23.39.18:509][421]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.18-23.39.18:533][421]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.18-23.39.18:544][421]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.18-23.39.18:544][421]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.18-23.39.18:544][421]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.18-23.39.18:544][421]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.18-23.39.18:564][421]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.18-23.39.18:564][421]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.18-23.39.18:564][421]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.18-23.39.18:564][421]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.18-23.39.18:564][421]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.18-23.39.18:564][421]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.18-23.39.18:564][421]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.18-23.39.18:565][421]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.18-23.39.18:565][421]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.18-23.39.18:580][421]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.18-23.39.18:581][421]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.18-23.39.18:581][421]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.18-23.39.18:581][421]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.18-23.39.18:592][421]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.18-23.39.18:601][421]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.18-23.39.18:601][421]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.18-23.39.18:616][421]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.18-23.39.18:668][421]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.18-23.39.18:668][421]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.18-23.39.18:677][421]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.18-23.39.18:677][421]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.18-23.39.18:678][421]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.18-23.39.18:690][421]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.18-23.39.18:690][421]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.18-23.39.18:691][421]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.18-23.39.18:691][421]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.18-23.39.18:691][421]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.18-23.39.18:717][421]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.18-23.39.18:717][421]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.18-23.39.18:717][421]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.18-23.39.18:717][421]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.18-23.39.18:718][421]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.18-23.39.18:719][421]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.18-23.39.18:861][421]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.18-23.39.18:871][421]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.18-23.39.18:883][421]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.18-23.39.18:893][421]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.18-23.39.18:893][421]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.18-23.39.18:893][421]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.18-23.39.18:893][421]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.18-23.39.18:893][421]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.18-23.39.18:893][421]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.18-23.39.18:894][421]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.18-23.39.18:894][421]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.18-23.39.18:902][421]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.18-23.39.18:902][421]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.18-23.39.18:902][421]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.18-23.39.18:902][421]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.18-23.39.18:913][421]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.18-23.39.18:913][421]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.18-23.39.18:918][421]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.18-23.39.18:918][421]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.18-23.39.18:919][421]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.18-23.39.18:919][421]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.18-23.39.18:919][421]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.18-23.39.18:919][421]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.18-23.39.18:919][421]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.18-23.39.18:920][421]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.18-23.39.18:920][421]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.18-23.39.18:920][421]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.18-23.39.18:920][421]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.18-23.39.19:020][421]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.18-23.39.19:120][421]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.18-23.39.19:121][421]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.18-23.39.19:121][421]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.18-23.39.19:121][421]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.18-23.39.19:121][421]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.18-23.39.19:121][421]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.18-23.39.19:123][421]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.18-23.39.19:123][421]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.18-23.39.19:141][421]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.18-23.39.19:141][421]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.18-23.39.19:145][421]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.18-23.39.19:145][421]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.18-23.39.19:145][421]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.18-23.39.19:145][421]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.18-23.39.19:145][421]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.18-23.39.19:145][421]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.18-23.39.19:151][421]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.18-23.39.19:151][421]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.18-23.39.19:151][421]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.18-23.39.19:157][421]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.18-23.39.19:157][421]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.18-23.39.19:157][421]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.18-23.39.19:157][421]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.18-23.39.19:157][421]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.18-23.39.19:157][421]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.18-23.39.19:157][421]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.18-23.39.19:178][421]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.18-23.39.19:198][421]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.18-23.39.19:213][421]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.18-23.39.19:213][421]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.18-23.39.19:231][421]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.18-23.39.19:231][421]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.18-23.39.19:235][421]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.18-23.39.19:235][421]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.18-23.39.19:235][421]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.18-23.39.19:235][421]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.18-23.39.19:235][421]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.18-23.39.19:235][421]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.18-23.39.19:235][421]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.18-23.39.19:236][421]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.18-23.39.19:236][421]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.18-23.39.19:237][421]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.18-23.39.19:237][421]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.18-23.39.19:237][421]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.18-23.39.19:237][421]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.18-23.39.19:237][421]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.18-23.39.19:237][421]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.18-23.39.19:237][421]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.18-23.39.19:238][421]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.18-23.39.19:245][421]LogDerivedDataCache: Shutdown
+[2018.03.18-23.39.19:245][421]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.18-23.39.19:246][421]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.18-23.39.19:255][421]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.18-23.39.19:256][421]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.18-23.39.19:257][421]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.18-23.39.19:258][421]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.18-23.39.19:258][421]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.18-23.39.19:266][421]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54DEF4C6-4DAC-4D9F-993F-BEB56DBFB275%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c39c5c09442c47ade7a166a3824dcf60%7C3f090def8e52455785dfe5939754062e%7C4b58a65d-b116-4526-8292-6226abd0ca42&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.18-23.39.19:287][421]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.18-23.39.19:294][421]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.18-23.39.19:295][421]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.18-23.39.19:295][421]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.18-23.39.19:295][421]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.18-23.39.19:304][421]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.18-23.39.19:304][421]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.18-23.39.19:304][421]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.18-23.39.19:316][421]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.18-23.39.19:336][421]LogExit: Exiting.
+[2018.03.18-23.39.19:357][421]Log file closed, 03/19/18 00:39:19
